@@ -1,5 +1,5 @@
 # Open Enterprise website design
-> A simple website
+> A simple website.
 
 `Open Enterprise` is the site for me to practice end front design during html/css training.
 ## Getting Started
