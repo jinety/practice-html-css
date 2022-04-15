@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --font-size: 32px;
+    --font-weight: 400; 
+    --text-color: black;
+}
 .nav{
     align-items: flex-start;
     display: flex;
     height: 43px;
     width: 1328px;
-    margin-top: 40px;
-   
+    margin-top: 40px; 
 }
 .frame{
     display: flex;
@@ -20,12 +24,13 @@
 }
 .open-enterprise{
     font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
     letter-spacing: -0.04em;
     margin-left: 125px;
     height: 38px;
     max-width: 400px;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
     margin-top: 30px;
 }
 .logo{
@@ -43,16 +48,16 @@
     margin-top: 30px;
     margin-right: -1400px;
 }
-.nav-link li{
+.contains-link{
     display: inline-block;
     margin-right: 30px;
 }
-.nav-link li a{
+.link{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-size: 20px;
-    font-weight: 700;
+    font-weight: var(--font-weight);
     padding: 3px 0;
 }
 #request-early-access{
