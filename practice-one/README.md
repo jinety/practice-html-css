@@ -1,9 +1,9 @@
 # Open Enterprise website design
 > A simple website.
 
-`Open Enterprise` is the site to practice end front design during html/css training.
+`Open Enterprise` is the site to practice frontend during html/css training.
 
-## Getting 
+## Getting Started 
 
 ### Prerequisites
 
@@ -23,6 +23,6 @@ Before you continue, ensure you meet the following requirements:
 
 ## Author
 **Hoa Nguyen**
-* [email](mailto:vhoa1000@gmail.com)
+* [email](email:vhoa1000@gmail.com)
 
 
