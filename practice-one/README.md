@@ -1,7 +1,7 @@
 # Open Enterprise website design
 > A simple website.
 
-`Open Enterprise` is the site for me to practice end front design during html/css training.
+`Open Enterprise` is the site to practice end front design during html/css training.
 
 ## Getting 
 
@@ -13,9 +13,9 @@ Before you continue, ensure you meet the following requirements:
 ### Installation
 * You can download my code [here](https://github.com/jinety/practice-html-css)
 
-### Technologies Used
- * HTML
- * CSS
+### Technologies
+* HTML
+* CSS
 
 ### Executing program
 * Go to VScode and open the html file.
@@ -23,6 +23,6 @@ Before you continue, ensure you meet the following requirements:
 
 ## Author
 **Hoa Nguyen**
-* [Profile](https://github.com/jinety)
+* [email](mailto:vhoa1000@gmail.com)
 
 
