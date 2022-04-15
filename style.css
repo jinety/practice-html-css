@@ -3,6 +3,7 @@
     --font-size: 32px;
     --font-weight: 400; 
     --text-color: black;
+    --font-family: 'Roboto', sans-serif;
 }
 .nav{
     align-items: flex-start;
@@ -23,7 +24,7 @@
     top: 40px;
 }
 .open-enterprise{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
     color: var(--text-color);
     letter-spacing: -0.04em;
     margin-left: 125px;
@@ -53,7 +54,7 @@
     margin-right: 30px;
 }
 .link{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
     text-decoration: none;
     color: var(--text-color);
     font-size: 20px;
