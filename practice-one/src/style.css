@@ -44,10 +44,13 @@
   
 }
 .nav-link{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-    margin-right: -1400px;
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    height: 23px;
+    margin-left: 550px;
+    margin-top: 50px;
+    width: 700px;
 }
 .contains-link{
     display: inline-block;
