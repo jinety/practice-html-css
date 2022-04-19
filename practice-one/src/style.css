@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-:root{
+:root {
     --font-size-m: 32px;
     --font-size-s: 20px;
     --font-weight: 400; 
@@ -7,20 +7,18 @@
     --text-color-secondary: #71A894;
     --font-family: 'Roboto', sans-serif;
 }
-.logo-and-menu{
+.logo-and-menu {
     display: flex;
     align-items: flex-start;
 }
-.logo-and-company-name{
+.logo-or-branch-identify {
    flex: 45%;
    display: flex;
    flex-direction: row;
    align-items: center;
-   padding: 0;
-   left: 0px;
    top: 40px;
 }
-.open-enterprise{
+.logo-name {
     font-family: var(--font-family);
     color: var(--text-color);
     letter-spacing: -1.28px;
@@ -29,7 +27,7 @@
     font-weight: var(--font-weight);
     font-size: var(--font-size-m);
 }
-.logo{
+.logo {
     display: flex;
     text-align: center;
     height: 40px;
@@ -37,16 +35,16 @@
     margin-top: 40px;
     margin-left: 10px;
 }
-.logo-and-menu-link{
+.logo-and-menu-link {
     flex: 55%;
     padding: 9px;
     margin-top: 40px;
 }
-.contains-link{
+.contains-link {
     display: inline-block;
     margin-right: 30px;
 }
-.link{
+.link {
     font-family: var(--font-family);
     text-decoration: none;
     color: var(--text-color);
@@ -54,6 +52,6 @@
     font-weight: var(--font-weight);
     padding: 3px 0;
 }
-.link:hover{
+.link:hover {
     color: var(--text-color-secondary);
 }
