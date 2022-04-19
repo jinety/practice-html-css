@@ -7,18 +7,20 @@
     --text-color-secondary: #71A894;
     --font-family: 'Roboto', sans-serif;
 }
-.logo-and-menu {
+
+.main-header {
     display: flex;
     align-items: flex-start;
 }
-.logo-or-branch-identify {
+
+.branch-container {
    flex: 45%;
    display: flex;
    flex-direction: row;
    align-items: center;
-   top: 40px;
 }
-.logo-name {
+
+.branch-name {
     font-family: var(--font-family);
     color: var(--text-color);
     letter-spacing: -1.28px;
@@ -27,6 +29,7 @@
     font-weight: var(--font-weight);
     font-size: var(--font-size-m);
 }
+
 .logo {
     display: flex;
     text-align: center;
@@ -35,15 +38,18 @@
     margin-top: 40px;
     margin-left: 10px;
 }
-.logo-and-menu-link {
+
+.menu {
     flex: 55%;
     padding: 9px;
     margin-top: 40px;
 }
-.contains-link {
+
+.menu-item {
     display: inline-block;
     margin-right: 30px;
 }
+
 .link {
     font-family: var(--font-family);
     text-decoration: none;
@@ -52,6 +58,7 @@
     font-weight: var(--font-weight);
     padding: 3px 0;
 }
+
 .link:hover {
     color: var(--text-color-secondary);
 }
