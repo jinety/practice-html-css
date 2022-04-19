@@ -11,7 +11,7 @@
     display: flex;
     align-items: flex-start;
 }
-.frame{
+.logo-and-company-name{
    flex: 45%;
    display: flex;
    flex-direction: row;
