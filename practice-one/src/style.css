@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
-    --font-size: 32px;
+    --font-size-m: 32px;
+    --font-size-s: 20px;
     --font-weight: 400; 
     --text-color: black;
     --font-family: 'Roboto', sans-serif;
@@ -9,7 +10,6 @@
     align-items: flex-start;
     display: flex;
     height: 43px;
-    width: 1328px;
     margin-top: 40px; 
 }
 .frame{
@@ -54,10 +54,7 @@
     font-family: var(--font-family);
     text-decoration: none;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight);
     padding: 3px 0;
-}
-#request-early-access{
-    color: greenyellow;
 }
