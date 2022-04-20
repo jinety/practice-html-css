@@ -2,9 +2,16 @@
 :root {
     --font-size-m: 32px;
     --font-size-s: 20px;
+    --font-size-x: 24px;
+    --font-size-l: 48px;
+    --font-size-button: 18px;
     --font-weight: 400; 
     --text-color: black;
     --text-color-secondary: #71A894;
+    --text-color-description: #66645E;
+    --background-button: #71A894;
+    --background-form-button: #F3F0EA;
+    --text-color-button: #FFFFFF;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -64,31 +71,85 @@
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------MAIN------------------------------------------------------------------------------*/
+/*-------------------------------------------------PAGE BODY-------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 
-.container {
+.section-head {
     display: flex;
     align-items: flex-end;
 }
+
 .container-img {
     flex: 55%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    align-items: center;    
 }
+
 .picture1 {
     display: flex;
-    text-align: center;
     height: 400px;
-    width: 650px;
+    width: 700px;
     margin-top: 40px;
     margin-left: 5px;
 }
+
 .container-heading-button {
     flex: 45%;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-left: 10px;
+    width: 600px;
+    height: 350px;
+}
+
+.heading {
+    height: 200px;
+    width: 300px;
+    font-weight: var(--font-weight);
+}
+
+.title {
+    font-size: var(--font-size-l);
+    width: 500px;
+}
+
+.discription {
+    font-size: var(--font-size-x);
+    color: var(--text-color-description);
+    width: 600px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+}
+
+.container-button {
+    display: flex;
+    margin-left: 10px;
+}
+
+.button {
+    align-items: center;
+    width: 218px;
+    height: 64px;
+    background: var(--background-button);
+    border-radius: 8px;
+    margin-top: 59px;
+}
+
+.content-button {
+    color: var(--text-color-button);
+    font-size: var(--font-size-button);
+    line-height: 24px;
+    width: 200px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.form-background {
+    width: 5px;
+    height: 55px;
+    margin-top: 65px;
+    background: var(--background-form-button);
+    border-radius: 8px;
 }
