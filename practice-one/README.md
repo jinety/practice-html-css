@@ -5,6 +5,9 @@
 
 ## Getting Started 
 
+### Figma design
+
+Design a website based on Figma's sample design: [here](https://www.figma.com/file/fv1EBxOAA3DaxO65Dg77bI/Landing-Page-Concept-(Community)?node-id=0%3A1)
 ### Prerequisites
 
 Before you continue, ensure you meet the following requirements:
@@ -14,8 +17,8 @@ Before you continue, ensure you meet the following requirements:
 * You can download my code [here](https://github.com/jinety/practice-html-css)
 
 ### Technologies
-* HTML
-* CSS
+* HTML5
+* CSS3
 
 ### Executing program
 * Go to VScode and open the html file.
@@ -23,6 +26,6 @@ Before you continue, ensure you meet the following requirements:
 
 ## Author
 **Hoa Nguyen**
-* [email](email:vhoa1000@gmail.com)
+* Email: <vhoa1000@gmail.com>
 
 
