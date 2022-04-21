@@ -11,13 +11,11 @@
     --primary-color-300: #66645E; 
     --primary-color-400: #303031;
     --secondary-color-100: #71A894;
-    --line-height-s: 23.44px;
     --line-height-m: 24px;
     --line-height-l: 32px;
     --line-height-xl: 37.5px;
     --line-height-xxl: 64px;
     --font-family: 'Roboto', sans-serif;
-    --font-style: none;
 }
 
 .main-header {
@@ -69,7 +67,7 @@
     color: var(--primary-color-400);
     font-size: var(--font-size-s);
     font-weight: var(--font-weight);
-    line-height: var(--line-height-s);
+    line-height: var(--line-height-m);
     padding: 3px 0;
 }
 
