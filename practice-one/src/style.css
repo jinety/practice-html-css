@@ -106,7 +106,7 @@
 }
 
 .title, 
-.middle-title {
+.section-title {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight);
     font-family: var(--font-family);
@@ -115,7 +115,7 @@
 }
 
 .description,
-.middle-description {
+.section-description {
     font-size: var(--font-size-m);
     color: var(--primary-color-300);
     font-weight: var(--font-weight);
@@ -145,7 +145,7 @@
     text-align: center; 
 }
 
-.middle-section {
+.main-content {
     display: flex;
     align-items: flex-start;
     margin-top: 30px;
