@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
-    --font-size-m: 32px;
+    --font-size-xs: 18px;
     --font-size-s: 20px;
-    --font-weight: 400; 
-    --text-color: black;
-    --text-color-secondary: #71A894;
+    --font-size-m: 24px;
+    --font-size-l: 32px;
+    --font-size-xl: 48px;
+    --font-weight: 400;
+    --primary-color-100: #FFFFFF;
+    --primary-color-200: #F3F0EA;
+    --primary-color-300: #66645E; 
+    --primary-color-400: #303031;
+    --secondary-color-100: #71A894;
+    --line-height-m: 24px;
+    --line-height-l: 32px;
+    --line-height-xl: 37.5px;
+    --line-height-xxl: 64px;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -22,12 +32,13 @@
 
 .branch-name {
     font-family: var(--font-family);
-    color: var(--text-color);
+    color: var(--primary-color-400);
+    line-height: var(--line-height-xl);
     letter-spacing: -1.28px;
     margin-left: 10px;
     margin-top: 40px;
     font-weight: var(--font-weight);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
 }
 
 .logo {
@@ -53,12 +64,75 @@
 .link {
     font-family: var(--font-family);
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--primary-color-400);
     font-size: var(--font-size-s);
     font-weight: var(--font-weight);
+    line-height: var(--line-height-m);
     padding: 3px 0;
 }
 
 .link:hover {
-    color: var(--text-color-secondary);
+    color: var(--secondary-color-100);
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------PAGE BODY-------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-head {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-img {
+    flex: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.illustrations {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container-heading {
+    flex: 45%;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    line-height: var(--line-height-xxl);
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: var(--font-size-m);
+    color: var(--primary-color-300);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+    font-family: var(--font-family);
+    width: 550px;
+    line-height: var(--line-height-l);
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+}
+
+.button {
+    background: var(--secondary-color-100);
+    color: var(--primary-color-100);
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-m);
+    border-radius: 8px;
+    padding: 20px 24px;
+    text-align: center; 
 }
