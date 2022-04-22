@@ -202,7 +202,6 @@
 .cards {
     display: flex;
     width: 1328px;
-    height: 340px;
 }
 
 .card {
