@@ -191,6 +191,7 @@
 
 .title-meaning-of-work {
     width: 895px;
+    margin-bottom: 18px;
 }
 
 .description-meaning-of-work {
@@ -245,12 +246,11 @@
     display: flex;
     background-color: var(--secondary-color-100);
     width: 1328px;
-    height: 109px;
     margin-top: 41px;
 }
 
 .branch-name-footer {
-    flex: 75%;
+    flex: 60%;
     font-size: var(--font-size-m);
     line-height: var(--line-height-l);
     align-self: center;
@@ -258,12 +258,11 @@
 }
 
 .menu-footer {
-    float: 25%;
+    flex: 40%;
     align-self: center;
 }
 
 .menu-item-footer {
     margin-right: 40px;
-    margin: 15px;
-    justify-content: flex-end;
+    margin: 10px;
 }
