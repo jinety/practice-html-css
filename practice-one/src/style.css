@@ -10,7 +10,8 @@
     --primary-color-200: #F3F0EA;
     --primary-color-300: #66645E; 
     --primary-color-400: #303031;
-    --secondary-color-100: #71A894;
+    --secondary-color-100: #71a89480;
+    --secondary-color-200: #71A894;
     --line-height-s: 24px;
     --line-height-m: 26px;
     --line-height-l: 32px;
@@ -73,7 +74,7 @@
 }
 
 .link:hover {
-    color: var(--secondary-color-100);
+    color: var(--secondary-color-200);
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -135,7 +136,7 @@
 }
 
 .button {
-    background: var(--secondary-color-100);
+    background: var(--secondary-color-200);
     color: var(--primary-color-100);
     font-size: var(--font-size-xs);
     line-height: var(--line-height-s);
@@ -234,4 +235,29 @@
 
 .icon {
     padding: 65px 160px 25px;
+}
+  /*----------------------------------------------------------------------------------------------------------------------------------*/
+ /*----------------------------------------------------FOOTER------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.communications {
+    display: flex;
+    background-color: var(--secondary-color-100);
+    width: 1328px;
+    height: 109px;
+    margin-top: 41px;
+}
+.branch-name-footer {
+    font-size: var(--font-size-m);
+    line-height: 28px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.menu-footer {
+    align-self: center;
+}
+
+.menu-item-footer {
+    margin-right: 40px;
+    margin: 30px;
 }
