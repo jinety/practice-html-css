@@ -5,39 +5,41 @@
     <title>Open Enterprise</title>
   </head>
   <body>
+<!--------------------------------------START GENERAL MAIN HEADER------------------------------------------>
     <header class="general main-header">
       <div class="branch-container">
-        <img src="assets/logo.png" class="logo" alt="logo" />
-        <div class="branch-name branch-name-header">
-          <span>Open Enterprise</span>
+        <a href="javascript:void(0);"><img src="assets/logo.png" class="logo" alt="logo" /></a><!--nên có thẻ a-->
+        <div class="branch-name">
+          <h1>Open Enterprise</h1><!--bỏ div, span, sử dụng thẻ h1-->
         </div>
       </div>
       <ul class="menu">
-        <li class="menu-item menu-item-header">
-          <a href="" class="link">Why Open Enterprise</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Why Open Enterprise</a>
         </li>
-        <li class="menu-item menu-item-header">
-          <a href="" class="link">Features</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Features</a>
         </li>
-        <li class="menu-item menu-item-header">
-          <a href="" class="link">Contribute</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Contribute</a>
         </li>
-        <li class="menu-item menu-item-header">
-          <a href="" class="link">Request early access</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Request early access</a>
         </li>
       </ul>
     </header>
-
-    <section class="general section-head">
-      <div class="container-heading">
-        <p class="title title-open-collaboration">
+<!-----------------------------------------END GENERAL MAIN HEADER----------------------------------------------->
+<!-------------------------------------START SECTION OPEN COLLABORATION--------------------------------------------->
+    <section class="general section-open-collaboration"><!--section-open-collaboration-->
+      <div class="general-content"><!--general-content-->
+        <p class="title">
           A new model for open collaboration
         </p>
-        <p class="description description-open-collaboration">
+        <p class="description">
           Run an organization where members get rewarded for their contributions
           with fractional ownership.
         </p>
-        <button class="button button-open-collaboration" type="button">
+        <button class="button" type="button">
           Request early access
         </button>
       </div>
@@ -49,8 +51,9 @@
         />
       </div>
     </section>
-
-    <section class="general main-content">
+<!--------------------------------------END SECTION OPEN COLLABORATION--------------------------------------------->
+<!--------------------------------------START SECTION ENTERPRISE--------------------------------------------------->
+    <section class="general section-Enterprise"><!--section-Enterprise-->
       <div class="container-img">
         <img
           src="assets/picture2.png"
@@ -58,25 +61,26 @@
           alt="illustrative-image"
         />
       </div>
-      <div class="container-heading">
-        <p class="title title-open-enterprise">Start an Open Enterprise</p>
-        <p class="description description-open-enterprise">
+      <div class="general-content">
+        <p class="title">Start an Open Enterprise</p>
+        <p class="description">
           If you can’t wait to run a new or existing organization on Open
           Enterprise and are willing to explore and navigate the beta, we’d love
           to get you started.
         </p>
-        <button class="button button-open-enterprise" type="button">
+        <button class="button" type="button">
           Request early access
         </button>
       </div>
     </section>
-
-    <section class="general content-summary">
-      <div class="summary">
-        <p class="title title-meaning-of-work">
+<!-----------------------------------------------------END SECTION ENTERPRISE-------------------------------------------------------------->
+<!------------------------------------------------------START SECTION SUMMARY---------------------------------------------------------------->
+    <section class="general section-summary">
+      <div class="general-summary">
+        <p class="title">
           Reimagining what it means to work
         </p>
-        <p class="description description-meaning-of-work">
+        <p class="description">
           Teams and communities using Open Enterprise fundamentally unlock a
           reality of work that reimagines how people engage in economic
           opportunity, meeting the demands and expectations of a modern
@@ -85,18 +89,14 @@
       </div>
       <div class="cards">
         <figure class="card">
-          <img src="assets/icon1.png" class="icon" alt="modern" />
-          <figcaption class="card-tile card-tile-modern-workforce">
-            Modern workforce
-          </figcaption>
-          <figcaption class="card-description">
-            Multistakeholder governance aligns employees with the organization’s
-            wider community.
-          </figcaption>
+          <img src="assets/icon-morden.png" class="icon" alt="Modern" />
+          <figcaption class="card-tile card-tile-workforce">Modern workforce</figcaption>
+          <figcaption class="card-description">Multistakeholder governance aligns employees with the organization’s
+            wider community.</figcaption>
         </figure>
         <figure class="card">
-          <img src="assets/icon2.png" class="icon" alt="Meritocratic" />
-          <figcaption class="card-tile card-tile-meritocratic-by-design">
+          <img src="assets/icon-meritocratic.png" class="icon" alt="Meritocratic" />
+          <figcaption class="card-tile card-tile-meritocratic">
             Meritocratic by design
           </figcaption>
           <figcaption class="card-description">
@@ -105,8 +105,8 @@
           </figcaption>
         </figure>
         <figure class="card">
-          <img src="assets/icon3.png" class="icon" alt="Engineered" />
-          <figcaption class="card-tile card-tile-engineered-for-resilience">
+          <img src="assets/icon-engineered.png" class="icon" alt="Engineered" />
+          <figcaption class="card-tile card-title-engineered">
             Engineered for resilience
           </figcaption>
           <figcaption class="card-description">
@@ -115,23 +115,25 @@
         </figure>
       </div>
     </section>
-
-    <footer class="communications">
-      <p class="branch-name branch-name-footer">Open Enterprise</p>
+<!-----------------------------------------------------END SECTION SUMMARY-------------------------------------------------------------->
+<!-----------------------------------------------------START FOOTER COMMUNICATIONS----------------------------------------------------->
+    <footer class="footer-communications"><!--footer-communications-->
+      <p class="branch-name">Open Enterprise</p>
       <ul class="menu menu-footer">
-        <li class="menu-item menu-item-footer">
-          <a href="" class="link">Documentation</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Documentation</a>
         </li>
-        <li class="menu-item menu-item-footer">
-          <a href="" class="link">GitHub</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">GitHub</a>
         </li>
-        <li class="menu-item menu-item-footer">
-          <a href="" class="link">Twitter</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Twitter</a>
         </li>
-        <li class="menu-item menu-item-footer">
-          <a href="" class="link">Contact us</a>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="link">Contact us</a>
         </li>
       </ul>
     </footer>
+<!------------------------------------------------------END FOOTER COMMUNICATIONS---------------------------------------------------------------->
   </body>
 </html>
