@@ -237,7 +237,7 @@
     background: var(--primary-color-100);
     width: 427px;
     height: 340px;
-    margin: 23px;
+    margin-right: 23px;
 }
 
 .card-tile {
