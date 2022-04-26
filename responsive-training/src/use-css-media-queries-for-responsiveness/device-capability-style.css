@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 2em;
+}
+
+.desc {
+    color: #ccc;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+@media (hover: hover) {
+    .desc::before {
+        content: "Your device allows you to hover.";
+    }
+}
+
+@media (hover: none) {
+    .desc::before {
+        content: "Your device allows you to hover.";
+    }
+}
+
+@media (pointer: fine) {
+    .desc::after {
+        content: " You are using a fine pointer, a mouse or trackpad perhaps?"
+      }
+}
+
+@media (pointer: coarse) {
+    .desc::after {
+        content: " You are using a fine pointer, a mouse or trackpad perhaps?"
+      }
+}
