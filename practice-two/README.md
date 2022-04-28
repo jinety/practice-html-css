@@ -15,9 +15,8 @@ Before you continue, ensure you meet the following requirements:
 * You have installed the latest VScode.
 * Use the latest browser version (Chrome, Firefox, MS Edge)
 
-### Section breakpoint
-* Mobile: @media screen and (max-width: 739px)
-* Desktop: @media screen and (max-width: 1440px)
+### Requirement
+* Work cross devices, cross browser
 
 ### Installation
 * You can download my code [here](https://github.com/jinety/practice-html-css)
