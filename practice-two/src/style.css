@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+:root {
+    /*FONT SIZE*/
+    --font-size-xs: 16px;
+    --font-size-xl: 30px;
+    /*LINE HEIGHT*/
+    --line-height-m: 24px;
+    --line-height-xl: 28px;
+    /*FONT WEIGHT*/
+    --font-weight-s: 500;
+    --font-weight-m: 600;
+    --font-weight-l: 700;
+    /*FONT FAMILY*/
+    --font-family: 'Poppins', sans-serif;
+    /*COLOR*/
+    --primary-color-100: #02897A;
+    --primary-color-200: #173A56;
+    --primary-color-300: #22343D;
+    --secondary-color-100: white;
+
+}
+
+/*START MAIN HEADER*/
+.main-header {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brach-container {
+    display: flex;
+    align-items: center;
+}
+.branch-name {
+    margin-left: 16px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-l);
+    line-height: var(--line-height-xl);
+}
+
+.menu-button {
+    display: flex;
+}
+.menu {
+    display: flex;
+    text-align: center;
+    margin: 0 24px;
+}
+.menu-item {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 24px;
+}
+
+.link {
+    font-family: var(--font-family);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-s);
+    line-height: var(--line-height-xl);
+    color: var(--primary-color-200);
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--primary-color-300);
+}
+.button {
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: var(--secondary-color-100);
+    padding: 10px 25px;
+    font-size: var(--font-size-xs);
+    color: var(--secondary-color-200);
+    line-height: var(--line-height-m);
+    font-weight: var(--font-weight-m);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: var(--primary-color-100);
+    color: var(--secondary-color-100);
+}
+
+.navbar {
+    display: none;
+    color: var(--primary-color-300);
+    text-align: right;
+    cursor: pointer;
+}
+@media screen and (max-width: 450px){
+    .main-header {
+        height: 70px;
+    }
+    .menu-button {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        margin: 26px 43px 32px;
+    }
+
+    .brach-container {
+        margin: 28px 0px 18px 32px;
+    }
+}
+
+
+/*END MAIN HEADER*/
