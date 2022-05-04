@@ -2,13 +2,32 @@
 :root {
   /* FONT SIZE */
   --font-size-xs: 16px;
+  --font-size-s: 18px;
+  --font-size-m: 20px;
+  --font-size-l: 24px;
   --font-size-xl: 30px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 34px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 76px;
     
   /* LINE HEIGHT */
+  --line-height-xs: 19px;
+  --line-height-s: 22px;
   --line-height-m: 24px;
+  --line-height-l: 27px;
   --line-height-xl: 28px;
+  --line-height-2xl: 30px;
+  --line-height-3xl: 35px;
+  --line-height-4xl: 36px;
+  --line-height-5xl: 40px;
+  --line-height-6xl: 48px;
+  --line-height-7xl: 51px;
+  --line-height-8xl: 60px;
+  --line-height-9xl: 100px;
     
   /* FONT WEIGHT */
+  --font-weight-xs: 400;
   --font-weight-s: 500;
   --font-weight-m: 600;
   --font-weight-l: 700;
@@ -21,6 +40,8 @@
   --primary-color-200: #173A56;
   --primary-color-300: #22343D;
   --secondary-color-100: white;
+  --secondary-color-200: #AFAFAF;
+
 }
 
 /* START MAIN HEADER */
@@ -44,10 +65,10 @@
 
 .branch-name {
   margin-left: 16px;
-  font-family: var(--font-family);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
 }
 
 .menu-button {
@@ -67,7 +88,6 @@
 }
 
 .link {
-  font-family: var(--font-family);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-xl);
@@ -83,13 +103,15 @@
   background-color: var(--secondary-color-100);
   padding: 10px 25px;
   font-size: var(--font-size-xs);
-  color: var(--secondary-color-200);
   line-height: var(--line-height-m);
   font-weight: var(--font-weight-m);
   border-radius: 4px;
   margin: 12px;
 }
 
+.main-header .btn {
+  color: var(--primary-color-200);
+}
 .btn:hover {
   background-color: var(--primary-color-100);
   color: var(--secondary-color-100);
@@ -140,3 +162,150 @@
     }
 }
 /* END MAIN HEADER */
+
+/* START PRICING */
+.general {
+  font-family: var(--font-family);
+  font-style: normal;
+  color: var(--primary-color-300);
+}
+
+.section-pricing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
+
+.introduce {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-m);
+  line-height: var(--line-height-4xl);
+}
+
+.title {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-8xl);
+}
+
+.content {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-m);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.card {
+  background: var(--secondary-color-100);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 323px;
+  height: 450px;
+}
+
+.card-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-5xl);
+  padding-top: 24px;
+}
+
+.brief {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-5xl);
+  padding-top: 8px;
+}
+
+.money-per-mont {
+  display: flex;
+  padding-left: 70px;
+  color: var(--primary-color-100);
+}
+
+.money {
+  font-size: var(--font-size-5xl);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-9xl);
+  padding-top: 16px;
+}
+
+.dollar-month {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  padding-top: 40px;
+}
+
+.dollar {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-2xl);
+  margin-right: 70px;
+  
+}
+
+.per-month {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-xs);
+  letter-spacing: 0.1px;
+  color: var(--secondary-color-200);
+}
+.information {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-s);
+}
+
+.quantity {
+  padding-bottom: 16px;
+}
+
+.landing-pages {
+  padding-top: 16px;
+}
+
+.section-pricing .btn {
+  background-color: var(--primary-color-100);
+  color: var(--secondary-color-100);
+}
+
+.section-pricing .card:hover {
+  background-color: var(--primary-color-100);
+  color: var(--secondary-color-100);
+}
+
+.section-pricing .btn:hover {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-100);
+} 
+
+@media (max-width: 480px) {
+  .section-pricing {
+    height: 1733px;
+  }
+  
+  .cards {
+    flex-direction: column;
+    gap: 32px;
+    float: left;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}
+/* END PRICING */
