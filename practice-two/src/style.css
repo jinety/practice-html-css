@@ -74,7 +74,6 @@ table {
     width: 100%;
     min-height: 100vh;
     max-width: 100%;
-    position: relative;
 }
 
 .container {
@@ -82,8 +81,8 @@ table {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 .brach-container {
@@ -104,11 +103,11 @@ table {
 .menu {
     display: flex;
     text-align: center;
+    align-items: center;
     margin: 0 24px;
 }
 .menu-item {
     display: flex;
-    align-items: flex-end;
     padding: 0 24px;
 }
 
@@ -123,10 +122,6 @@ table {
 .link:hover {
     color: var(--primary-color-300);
 }
-.button {
-    justify-content: space-between;
-}
-
 .btn {
     background-color: var(--secondary-color-100);
     padding: 10px 25px;
@@ -135,6 +130,7 @@ table {
     line-height: var(--line-height-m);
     font-weight: var(--font-weight-m);
     border-radius: 4px;
+    margin: 12px;
 }
 
 .btn:hover {
@@ -147,25 +143,49 @@ table {
     color: var(--primary-color-300);
     text-align: right;
     cursor: pointer;
+    padding: 27px;
 }
-@media screen and (max-width: 450px){
-    .main-header {
+.fas fa-bars {
+    width: auto;
+}
+@media (max-width: 480px) {
+    .container {
         height: 70px;
+        width: 450px;
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
     }
+    .brach-container {
+       margin: 17px 8px 17px 32px;
+    }
+    .navbar {
+        display: block;
+    }
+
     .menu-button {
-        flex-direction: column;
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .btn {
         display: none;
     }
 
-    .navbar {
-        display: block;
-        margin: 26px 43px 32px;
-    }
-
-    .brach-container {
-        margin: 28px 0px 18px 32px;
+    .menu {
+        margin: 36px;
     }
 }
-
-
+@media (max-width: 1250px) {
+    .brach-container {
+        margin: 29px;
+    }
+}
+@media (min-width: 1251px) {
+    .main-header {
+        height: 80px;
+        margin: 0 auto;
+        min-height: 0;
+    }
+}
 /*END MAIN HEADER*/
