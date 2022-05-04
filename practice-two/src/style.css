@@ -89,6 +89,7 @@ table {
     display: flex;
     align-items: center;
 }
+
 .branch-name {
     margin-left: 16px;
     font-family: var(--font-family);
@@ -100,12 +101,14 @@ table {
 .menu-button {
     display: flex;
 }
+
 .menu {
     display: flex;
     text-align: center;
     align-items: center;
     margin: 0 24px;
 }
+
 .menu-item {
     display: flex;
     padding: 0 24px;
@@ -119,9 +122,11 @@ table {
     color: var(--primary-color-200);
     text-decoration: none;
 }
+
 .link:hover {
     color: var(--primary-color-300);
 }
+
 .btn {
     background-color: var(--secondary-color-100);
     padding: 10px 25px;
@@ -145,6 +150,7 @@ table {
     cursor: pointer;
     padding: 27px;
 }
+
 .fas fa-bars {
     width: auto;
 }
@@ -176,11 +182,13 @@ table {
         margin: 36px;
     }
 }
+
 @media (max-width: 1250px) {
     .brach-container {
         margin: 29px;
     }
 }
+
 @media (min-width: 1251px) {
     .main-header {
         height: 80px;
