@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 :root {
-    /*FONT SIZE*/
+    /* FONT SIZE */
     --font-size-xs: 16px;
     --font-size-xl: 30px;
-    /*LINE HEIGHT*/
+    
+    /* LINE HEIGHT */
     --line-height-m: 24px;
     --line-height-xl: 28px;
-    /*FONT WEIGHT*/
+    
+    /* FONT WEIGHT */
     --font-weight-s: 500;
     --font-weight-m: 600;
     --font-weight-l: 700;
-    /*FONT FAMILY*/
+    
+    /* FONT FAMILY */
     --font-family: 'Poppins', sans-serif;
-    /*COLOR*/
+    
+    /* COLOR */
     --primary-color-100: #02897A;
     --primary-color-200: #173A56;
     --primary-color-300: #22343D;
     --secondary-color-100: white;
-
 }
 
-/*START MAIN HEADER*/
+/* START MAIN HEADER */
 .main-header {
     width: 100%;
     max-width: 100%;
@@ -94,14 +97,14 @@
 
 .navbar {
     display: none;
-    color: var(--primary-color-300);
-    text-align: right;
     cursor: pointer;
-    padding: 27px;
 }
 
-.fas fa-bars {
-    width: auto;
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0; 
 }
 
 @media (max-width: 480px) {
@@ -117,6 +120,7 @@
 
     .navbar {
         display: block;
+        margin: 27px 43px 30px;
     }
 
     .menu-button {
