@@ -35,8 +35,8 @@
   --font-weight-l: 700;
     
   /* FONT FAMILY */
-  --font-family-pop: 'Poppins', sans-serif;
-  --font-family-inter: 'Inter', sans-serif;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
     
   /* COLOR */
   --primary-color-100: #02897A;
@@ -173,7 +173,7 @@
 
 /* START PRICING */
 .general {
-  font-family: var(--font-family-pop);
+  font-family: var(--primary-font);
   font-style: normal;
   color: var(--primary-color-300);
 }
@@ -239,7 +239,7 @@
   padding-top: 8px;
 }
 
-.money-per-mont {
+.money-per-month {
   display: flex;
   padding-left: 70px;
   color: var(--primary-color-100);
@@ -264,7 +264,6 @@
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-2xl);
   margin-right: 70px;
-  
 }
 
 .per-month {
@@ -279,7 +278,7 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-s);
-  font-family: var(--font-family-inter);
+  font-family: var(--secondary-font);
 }
 
 .quantity {
