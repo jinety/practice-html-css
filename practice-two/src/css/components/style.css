@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
 :root {
   /* FONT SIZE */
   --font-size-xs: 16px;
@@ -33,7 +35,8 @@
   --font-weight-l: 700;
     
   /* FONT FAMILY */
-  --font-family: 'Poppins', sans-serif;
+  --font-family-pop: 'Poppins', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
     
   /* COLOR */
   --primary-color-100: #02897A;
@@ -130,6 +133,11 @@
 }
 
 @media (max-width: 480px) {
+    .main-header {
+      width: 0 auto;
+      align-items: center;
+    }
+
     .container {
       height: 70px;
       width: 480px;
@@ -165,7 +173,7 @@
 
 /* START PRICING */
 .general {
-  font-family: var(--font-family);
+  font-family: var(--font-family-pop);
   font-style: normal;
   color: var(--primary-color-300);
 }
@@ -177,8 +185,9 @@
   text-align: center;
 }
 
-.content {
+.general-content {
   position: relative;
+  width: 1200px;
 }
 
 .introduce {
@@ -202,8 +211,9 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin:  auto;
   margin-top: 50px;
+  position: relative;
   width: 1200px;
 }
 
@@ -264,10 +274,12 @@
   letter-spacing: 0.1px;
   color: var(--secondary-color-200);
 }
+
 .information {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-s);
+  font-family: var(--font-family-inter);
 }
 
 .quantity {
@@ -281,6 +293,7 @@
 .section-pricing .btn {
   background-color: var(--primary-color-100);
   color: var(--secondary-color-100);
+  margin: 38px 92px;
 }
 
 .section-pricing .card:hover {
@@ -296,16 +309,48 @@
 @media (max-width: 480px) {
   .section-pricing {
     height: 1733px;
+    text-align: center;
+  }
+
+  .general-content {
+    width: 480px;
+  }
+
+  .title {
+    margin: 0px 32px;
   }
   
+  .content {
+    width: 370px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 40px;
+  }
+
   .cards {
     flex-direction: column;
+    align-items: center;
     gap: 32px;
-    float: left;
+    width: 480px;
+    width: 0 auto;
   }
 
   .card {
     margin: 0 auto;
   }
+}
+
+@media (min-width: 481px) {
+  .general-content {
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .cards {
+    justify-content: center;
+    gap: 70px;
+  } 
 }
 /* END PRICING */
