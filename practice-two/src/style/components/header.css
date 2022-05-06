@@ -1,0 +1,140 @@
+/* START MAIN HEADER */
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brach-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.branch-logo {
+  display: inline-block;
+}
+
+.branch-img {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+.branch-name {
+  display: inline;
+  margin-left: 16px;
+  font-size: 30px;
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
+}
+
+.site-nav {
+  width: fit-content;
+}
+
+.site-nav,
+.nav-menu,
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item {
+  margin-right: 24px;
+}
+
+.menu-item-link {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.menu-item-link:hover {
+  font-weight: var(--font-weight-m);
+  color: var(--primary-color-300);
+}
+
+.btn {
+  background-color: var(--secondary-color-100);
+  padding: 10px 25px;
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-m);
+  font-weight: var(--font-weight-m);
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.site-header .btn {
+  color: var(--primary-color-200);
+}
+
+.btn:hover {
+  background-color: var(--primary-color-100);
+  color: var(--secondary-color-100);
+}
+
+.navbar {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0; 
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    width: 0 auto;
+    height: 70px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .branch-container {
+    margin-left: 32px;
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    padding: 5px 43px 10px 0px;
+  }
+}
+
+@media (min-width: 901px) {
+  .site-header {
+    height: 80px;
+    margin: 0 auto;
+    min-height: 0;
+  }
+  .branch-container {
+    margin-left: 32px;
+  }
+
+  .site-nav {
+    padding-top: 5px;
+  }
+
+  .btn-text {
+    margin-right: 19px auto;
+  }
+}
+/* END MAIN HEADER */

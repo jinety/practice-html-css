@@ -7,26 +7,15 @@
   --font-size-s: 18px;
   --font-size-m: 20px;
   --font-size-l: 24px;
-  --font-size-xl: 30px;
-  --font-size-2xl: 32px;
-  --font-size-3xl: 34px;
-  --font-size-4xl: 40px;
-  --font-size-5xl: 76px;
+  --font-size-xl: 34px;
     
   /* LINE HEIGHT */
-  --line-height-xs: 19px;
-  --line-height-s: 22px;
-  --line-height-m: 24px;
-  --line-height-l: 27px;
-  --line-height-xl: 28px;
-  --line-height-2xl: 30px;
-  --line-height-3xl: 35px;
-  --line-height-4xl: 36px;
+  --line-height-xs: 22px;
+  --line-height-s: 24px;
+  --line-height-m: 28px;
+  --line-height-xl: 30px;
+  --line-height-2xl: 36px;
   --line-height-5xl: 40px;
-  --line-height-6xl: 48px;
-  --line-height-7xl: 51px;
-  --line-height-8xl: 60px;
-  --line-height-9xl: 100px;
     
   /* FONT WEIGHT */
   --font-weight-xs: 400;
@@ -46,136 +35,6 @@
   --secondary-color-200: #AFAFAF;
 }
 
-/* START MAIN HEADER */
-.main-header {
-  width: 100%;
-  max-width: 100%;
-}
-
-.main-header .container {
-  background: var(--secondary-color-100);
-}
-
-.container {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.brach-container {
-  display: flex;
-  align-items: center;
-}
-
-.branch-name {
-  margin-left: 16px;
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-l);
-  line-height: var(--line-height-xl);
-  color: var(--primary-color-200);
-}
-
-.menu-button {
-  display: flex;
-}
-
-.menu {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  margin: 0 24px;
-}
-
-.menu-item {
-  display: flex;
-  padding: 0 24px;
-}
-
-.link {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-s);
-  line-height: var(--line-height-xl);
-  color: var(--primary-color-200);
-  text-decoration: none;
-}
-
-.link:hover {
-  color: var(--primary-color-300);
-}
-
-.btn {
-  background-color: var(--secondary-color-100);
-  padding: 10px 25px;
-  font-size: var(--font-size-xs);
-  line-height: var(--line-height-m);
-  font-weight: var(--font-weight-m);
-  border-radius: 4px;
-  margin: 12px;
-  border: 1px solid #BCD0E5;
-}
-
-.main-header .btn {
-  color: var(--primary-color-200);
-}
-
-.btn:hover {
-  background-color: var(--primary-color-100);
-  color: var(--secondary-color-100);
-}
-
-.navbar {
-  display: none;
-  cursor: pointer;
-}
-
-.bar {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0; 
-}
-
-@media (max-width: 480px) {
-  .main-header {
-    width: 0 auto;
-    align-items: center;
-  }
-
-  .container {
-    height: 70px;
-    width: 480px;
-    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
-  }
-    
-  .brach-container {
-    margin: 17px 8px 17px 32px;
-  }
-
-  .navbar {
-    display: block;
-    margin: 27px 43px 30px;
-  }
-
-  .menu-button {
-    display: none;
-  }
-}
-
-@media (min-width: 481px) {
-  .main-header {
-    height: 80px;
-    margin: 0 auto;
-    min-height: 0;
-  }
-
-  .brach-container {
-    margin: 30px;
-  }
-}
-/* END MAIN HEADER */
-
 /* START PRICING */
 .general {
   font-family: var(--primary-font);
@@ -183,7 +42,6 @@
   color: var(--primary-color-300);  
 }
 .section-enterprise {
-  /* max-width: 100%; */
   background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
   background-position: center;
   background-repeat: no-repeat;
@@ -204,12 +62,12 @@
 .introduce {
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-m);
-  line-height: var(--line-height-4xl);
+  line-height: 60px;
   display: inline-block;
 }
 
 .title {
-  font-size: var(--font-size-4xl);
+  font-size: 40px;
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-8xl);
 }
@@ -261,9 +119,9 @@
 }
 
 .money {
-  font-size: var(--font-size-5xl);
+  font-size: 76px;
   font-weight: var(--font-weight-l);
-  line-height: var(--line-height-9xl);
+  line-height: 100px;
   padding-top: 16px;
 }
 
@@ -282,7 +140,7 @@
 }
 
 .per-month {
-  font-size: var(--font-size-xs);
+  font-size: 19px;
   font-weight: var(--font-weight-xs);
   line-height: var(--line-height-xs);
   letter-spacing: 0.1px;
@@ -304,7 +162,7 @@
   padding-top: 16px;
 }
 
-.btn-bg-green {
+.section-pricing .btn {
   background-color: var(--primary-color-100);
   color: var(--secondary-color-100);
   margin: 38px 92px;
@@ -316,7 +174,7 @@
   color: var(--secondary-color-100);
 }
 
-.btn-bg-green:hover {
+.section-pricing .btn:hover {
   background-color: var(--secondary-color-100);
   color: var(--primary-color-100);
 } 
@@ -387,7 +245,7 @@
 
   .section-enterprise .title {
     line-height: var(--line-height-6xl);
-    font-size: var(--font-size-2xl);
+    font-size: 34px;
     margin: 0 auto;
     width: 350px;
   }
