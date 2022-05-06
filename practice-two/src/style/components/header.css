@@ -9,17 +9,17 @@
 
 .brach-container {
   display: inline-flex;
-  align-items: center;
 }
 
 .branch-logo {
-  display: inline-block;
+  display: flex;
 }
 
 .branch-img {
   display: inline-block;
   width: 40px;
   height: auto;
+  padding-top: 10px;
 }
 
 .branch-name {
@@ -29,10 +29,7 @@
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-xl);
   color: var(--primary-color-200);
-}
-
-.site-nav {
-  width: fit-content;
+  padding-top: 10px;
 }
 
 .site-nav,
@@ -94,7 +91,7 @@
   margin: 6px 0; 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 904px) {
   .site-header {
     width: 0 auto;
     height: 70px;
@@ -119,7 +116,7 @@
   }
 }
 
-@media (min-width: 901px) {
+@media (min-width: 905px) {
   .site-header {
     height: 80px;
     margin: 0 auto;
