@@ -91,7 +91,7 @@
   margin: 6px 0; 
 }
 
-@media (max-width: 904px) {
+@media (max-width: 915px) {
   .site-header {
     width: 0 auto;
     height: 70px;
@@ -116,7 +116,7 @@
   }
 }
 
-@media (min-width: 905px) {
+@media (min-width: 916px) {
   .site-header {
     height: 80px;
     margin: 0 auto;
@@ -128,10 +128,6 @@
 
   .site-nav {
     padding-top: 5px;
-  }
-
-  .btn-text {
-    margin-right: 19px auto;
   }
 }
 /* END MAIN HEADER */

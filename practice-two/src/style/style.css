@@ -2,10 +2,11 @@
 @import url("../style/reset.css");
 
 /* component */
-@import url("../style/components/header.css");
-@import url("../style/components/pricing.css");
-@import url("../style/components/enterprise.css");
+@import url("../style/section/header.css");
+@import url("../style/section/pricing.css");
+@import url("../style/section/enterprise.css");
 
 /*commons*/
 @import url("../style/commons/button.css");
 @import url("../style/commons/variables.css");
+@import url("../style/commons/general-class.css");

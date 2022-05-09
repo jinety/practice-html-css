@@ -1,37 +1,49 @@
 /* START ENTERPRISE */
 .section-enterprise {
   text-align: center;
-  
+  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
 }
 
-@media (max-width: 480px) {
-  .section-enterprise {
-    width: 480px;
-  }
+.general-content {
+  max-width: 1200px;
+}
 
+.section-enterprise .secondary-btn {
+  background: var(--primary-color-100);
+  color: var(--secondary-color-100);
+  margin: 38px 92px;
+  border-radius: 8px;
+}
+
+.section-enterprise .secondary-btn:hover {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-100);
+} 
+
+@media (max-width: 915px) {
   .section-enterprise .introduce {
     padding-top: 47px;
   }
 
   .section-enterprise .title {
-    line-height: var(--line-height-6xl);
-    font-size: 34px;
-    margin: 0 auto;
+    line-height: 48px;
+    font-size: 32px;
+    margin: 24px auto;
     width: 350px;
   }
   
   .section-enterprise .content {
     width: 320px;
     align-items: center;
-    margin: 25px auto;
+    margin: 0 auto;
   }
 
   .section-enterprise .btn-bg-green {
-    margin: 28px auto;
+    margin: 32px auto 46px;
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 916px) {
   .section-enterprise .introduce {
     padding-top: 53px;
   }

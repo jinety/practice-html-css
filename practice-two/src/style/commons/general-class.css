@@ -1,0 +1,5 @@
+.general {
+  font-family: var(--primary-font);
+  font-style: normal;
+  color: var(--primary-color-300);  
+}
