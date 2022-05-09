@@ -1,12 +1,14 @@
-/* rest */
+/* reset */
 @import url("../style/reset.css");
 
-/* component */
+/* commons */
+@import url("../style/commons/variables.css");
+@import url("../style/commons/general-class.css");
+@import url("../style/commons/button.css");
+
+/* section */
 @import url("../style/section/header.css");
 @import url("../style/section/pricing.css");
 @import url("../style/section/enterprise.css");
 
-/*commons*/
-@import url("../style/commons/button.css");
-@import url("../style/commons/variables.css");
-@import url("../style/commons/general-class.css");
+

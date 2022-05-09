@@ -8,3 +8,38 @@
   border: 1px solid #BCD0E5;
   cursor: pointer;
 }
+
+.site-header .btn:hover {
+  background-color: var(--primary-color-100);
+  color: var(--secondary-color-100);
+}
+
+.btn.secondary-btn {
+  background: var(--primary-color-100);
+  color: var(--secondary-color-100);
+  border-radius: 8px;
+}
+
+.card:hover button {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-100);
+}
+
+.section-enterprise .secondary-btn {
+  background: var(--primary-color-100);
+  color: var(--secondary-color-100);
+  border-radius: 8px;
+}
+
+.section-enterprise .secondary-btn:hover {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-100);
+} 
+
+.section-pricing .mr-btn {
+  margin: 38px auto 32px;
+}
+
+.section-enterprise .mr-btn {
+  margin: 38px auto 51px;;
+}

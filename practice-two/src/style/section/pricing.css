@@ -1,128 +1,113 @@
 /* START PRICING */
 .section-pricing {
-  margin: 0 auto;
+  margin: 50px auto 150px;
   text-align: center;
   background: var(--secondary-color-100);
   max-width: 1200px;
+  padding: 0 20px;
 }
 
-.introduce {
+.section-pricing .title {
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-m);
   line-height: var(--line-height-2xl);
   display: inline-block;
 }
 
-.title {
+.section-pricing .introduce {
   font-size: 40px;
   font-weight: var(--font-weight-l);
   line-height: 60px;
-  margin: 0 30px;
 }
 
-.content {
+.section-pricing .content {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-s);
 }
 
-.cards {
-  margin-left: 32px;
-  margin-right: 32px;
+.section-pricing .cards {
+  margin-top: 50px;
 }
 
-.card {
+.section-pricing .card {
   background: var(--secondary-color-100);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   align-items: center;
   border-radius: 8px;
-  /* width: 323px;
-  height: 456px; */
   width: 30%;
-margin: 50px auto 150px;
+  margin: 0 auto;
 }
 
-.card-title {
+.section-pricing .card-title {
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-5xl);
   padding-top: 24px;
 }
 
-.brief {
+.section-pricing .brief {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-xs);
   line-height: var(--line-height-5xl);
   padding-top: 8px;
 }
 
-.money-per-month {
+.section-pricing .money-per-month {
   display: inline-flex;
-  /* padding-left: 80px; */
   color: var(--primary-color-100);
 }
 
-.money {
+.section-pricing .money {
   font-size: 76px;
   font-weight: var(--font-weight-l);
   line-height: 100px;
   padding-top: 16px;
 }
 
-.dollar-month {
+.section-pricing .dollar-month {
   flex-direction: column;
   padding-left: 8px;
   padding-top: 40px;
 }
 
-.dollar {
+.section-pricing .dollar {
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-2xl);
-  margin-right: 70px;
+  padding-right: 80px;
 }
 
-.per-month {
-  font-size: 19px;
+.section-pricing .per-month {
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-xs);
-  line-height: var(--line-height-xs);
+  line-height: 19px;
   letter-spacing: 0.1px;
   color: var(--secondary-color-200);
 }
 
-.information {
+.section-pricing .information {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-s);
   font-family: var(--secondary-font);
 }
 
-.quantity {
+.section-pricing .quantity {
   padding-bottom: 16px;
 }
 
-.landing-pages {
+.section-pricing .landing-pages {
   padding-top: 16px;
 }
 
-.section-pricing .secondary-btn {
-  background: var(--primary-color-100);
-  color: var(--secondary-color-100);
-  margin: 38px auto 32px;
-  border-radius: 8px;
-}
-
-.card:hover {
+.section-pricing .card:hover {
   background-color: var(--primary-color-100);
+  cursor: pointer;
 }
 
-.card:hover * {
+.section-pricing .card:hover * {
   color: var(--secondary-color-100);
-}
-
-.secondary-btn:hover {
-  background-color: var(--secondary-color-100);
-  color: var(--primary-color-100);
 }
 
 @media (max-width: 915px) {
@@ -130,7 +115,7 @@ margin: 50px auto 150px;
     text-align: center;
   }
 
-  .section-pricing .title {
+  .section-pricing .introduce {
     width: 350px;
     margin: 0 auto;
     font-size: 36px;
@@ -144,14 +129,15 @@ margin: 50px auto 150px;
     margin: 18px auto;
   }
 
-  .cards {
+  .section-pricing .cards {
     flex-direction: column;
     align-items: center;
-    width: 50px auto;
+    width: 50px auto 0px;
   }
 
   .section-pricing .card {
-    margin: 32px auto;
+    width: 70%;
+    margin: 0 auto 32px;
   }
 }
 
@@ -162,10 +148,6 @@ margin: 50px auto 150px;
   }
 
   .section-pricing .introduce {
-    margin: 50px auto 0px;
-  }
-
-  .section-pricing .title {
     margin-top: 32px;
   }
 
@@ -175,7 +157,6 @@ margin: 50px auto 150px;
 
   .section-pricing .cards {
     display: flex;
-    justify-content: space-evenly;
   }
 }
 /* END PRICING */
