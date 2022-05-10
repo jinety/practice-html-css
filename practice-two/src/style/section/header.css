@@ -78,6 +78,7 @@
   margin: 6px 0; 
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .site-header {
     width: 0 auto;
@@ -103,6 +104,7 @@
   }
 }
 
+/* style applied to the tablet */
 @media (min-width: 916px) {
   .site-header {
     height: 80px;

@@ -100,6 +100,7 @@
   margin: 38px auto 32px;
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .section-pricing {
     text-align: center;
@@ -131,6 +132,7 @@
   }
 }
 
+/* style applied to the tablet */
 @media (min-width: 916px) {
   .general-content {
     justify-content: center;

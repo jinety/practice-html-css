@@ -25,9 +25,10 @@
 } 
 
 .mr-btn {
-  margin: 38px auto 51px;;
+  margin: 38px auto 51px;
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .title {
     padding-top: 47px;
@@ -51,13 +52,13 @@
   }
 }
 
+/* style applied to the tablet  */
 @media (min-width: 916px) {
   .title {
     padding-top: 53px;
   }
 
   .introduce {
-    /* margin: 16px auto; */
     margin-top: 16px;
   }
 
