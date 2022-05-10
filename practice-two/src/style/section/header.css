@@ -8,23 +8,23 @@
   padding: 0 20px;
 }
 
-.site-header .branch-container {
+.branch-container {
   display: inline-flex;
 }
 
-.site-header .branch-logo {
+.branch-logo {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.site-header .branch-img {
+.branch-img {
   display: inline-block;
   width: 40px;
   height: auto;
 }
 
-.site-header .branch-name {
+.branch-name {
   display: inline;
   margin-left: 16px;
   font-size: 30px;
@@ -40,11 +40,11 @@
   align-items: center;
 }
 
-.site-header .menu-item {
+.menu-item {
   margin-right: 24px;
 }
 
-.site-header .menu-item-link {
+.menu-item-link {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-xs);
   line-height: var(--line-height-xl);
@@ -53,25 +53,25 @@
   padding: 10px 0;
 }
 
-.site-header .menu-item-link:hover {
+.menu-item-link:hover {
   font-weight: var(--font-weight-m);
   color: var(--primary-color-300);
 }
 
-.site-header .mr-24 {
+.mr-24 {
   margin-right: 24px;
 }
 
-.site-header .btn {
+.btn {
   color: var(--primary-color-200);
 }
 
-.site-header .navbar {
+.navbar {
   display: none;
   cursor: pointer;
 }
 
-.site-header .bar {
+.bar {
   width: 35px;
   height: 5px;
   background-color: #333;
@@ -85,35 +85,35 @@
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
   }
 
-  .site-header .logo {
+  .logo {
     margin: auto;
   }
 
-  .site-header .branch-container {
+  .branch-container {
     margin-left: 32px;
   }
 
-  .site-header .site-nav {
+  .site-nav {
     display: none;
   }
 
-  .site-header .navbar {
+  .navbar {
     display: block;
     padding: 5px 43px 10px 0px;
   }
 }
 
 @media (min-width: 916px) {
-  .site-header .site-header {
+  .site-header {
     height: 80px;
     margin: 0 auto;
     min-height: 0;
   }
-  .site-header .branch-container {
+  .branch-container {
     margin-left: 32px;
   }
 
-  .site-header .site-nav {
+  .site-nav {
     padding-top: 5px;
   }
 }

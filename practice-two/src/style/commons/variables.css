@@ -34,3 +34,9 @@
   --secondary-color-100: white;
   --secondary-color-200: #AFAFAF;
 }
+
+html {
+  font-family: var(--primary-font);
+  font-style: normal;
+  color: var(--primary-color-300);  
+}
