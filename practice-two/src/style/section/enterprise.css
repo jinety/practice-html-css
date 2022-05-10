@@ -5,8 +5,12 @@
 }
 
 .general-content {
-  max-width: 1200px;
+  max-width: 1240px;
   padding: 0 20px;
+}
+
+.section-enterprise .content {
+  font-weight: (--font-weight-xs: 400;);
 }
 
 .secondary-btn {
