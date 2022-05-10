@@ -10,7 +10,7 @@
 }
 
 .section-enterprise .content {
-  font-weight: (--font-weight-xs: 400;);
+  font-weight: var(--font-weight-xs);
 }
 
 .secondary-btn {
