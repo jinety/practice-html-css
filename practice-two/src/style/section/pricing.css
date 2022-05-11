@@ -91,14 +91,13 @@
 .card:hover * {
   color: var(--secondary-color-100);
 }
+.section-pricing .secondary-btn {
+  margin: 38px auto 32px;
+}
 
 .card:hover .secondary-btn {
   background-color: var(--secondary-color-100);
   color: var(--primary-color-100);
-}
-
-.mtb-38-32 {
-  margin: 38px auto 32px;
 }
 
 /* style applied to the mobile */

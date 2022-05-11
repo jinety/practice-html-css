@@ -23,8 +23,7 @@
   background-color: var(--secondary-color-100);
   color: var(--primary-color-100);
 } 
-
-.section-enterprise .mtb-38-32 {
+.section-enterprise .secondary-btn {
   margin: 38px auto 51px;
 }
 
