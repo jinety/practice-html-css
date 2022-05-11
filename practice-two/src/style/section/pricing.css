@@ -9,6 +9,7 @@
 
 .cards {
   margin-top: 50px;
+  justify-content: space-between;
 }
 
 .card {
@@ -17,7 +18,7 @@
   align-items: center;
   border-radius: 8px;
   width: 30%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .card-title {
@@ -96,7 +97,7 @@
   color: var(--primary-color-100);
 }
 
-.mr-btn {
+.mtb-38-32 {
   margin: 38px auto 32px;
 }
 
