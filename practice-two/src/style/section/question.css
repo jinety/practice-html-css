@@ -45,6 +45,7 @@
   border: 1px solid #E7E7E7;
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .section-question .introduce {
     font-size: 32px;
@@ -60,6 +61,7 @@
   }
 }
 
+/* style applied to the tablet */
 @media (min-width: 916px) {
   .section-question .mr-bt {
     margin: 16px auto;

@@ -2,6 +2,7 @@
 .section-product {
   margin-top: 150px;
 }
+
 .section-product .introduce {
   text-align: center;
 }
@@ -42,6 +43,7 @@
   display: none;
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .section-product .branch-icon {
     padding: 0;
@@ -85,6 +87,7 @@
   }
 }
 
+/* style applied to the tablet */
 @media (min-width: 916px) {
   .branch-container-desktop {
     margin-top: 80px;
