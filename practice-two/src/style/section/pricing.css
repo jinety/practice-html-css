@@ -1,14 +1,33 @@
 /* START PRICING */
 .section-pricing {
-  text-align: center;
   background: var(--secondary-color-100);
+}
+
+.section-pricing .general-container {
+  text-align: center;
+  max-width: 1240px;
+  margin: 0 auto;
   padding: 50px 0 150px;
 }
 
-.section-pricing .general-container{
-  max-width: 1240px;
-  padding: 0 20px;
-  margin: 0 auto;
+.pricing-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-m);
+  line-height: var(--line-height-2xl);
+}
+
+.pricing-introduce {
+  font-size: 40px;
+  font-weight: var(--font-weight-l);
+  line-height: 60px;
+  padding-top: 32px;
+}
+
+.pricing-content {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-s);
+  padding-top: 16px;
 }
 
 .cards {
@@ -138,11 +157,6 @@
 
 /* style applied to the tablet */
 @media (min-width: 916px) {
-  .general-content {
-    justify-content: center;
-    margin: 0 auto;
-  }
-
   .introduce {
     margin-top: 32px;
   }

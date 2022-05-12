@@ -1,86 +1,86 @@
 /* START PRODUCT */
 .section-product {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
-.section-product .introduce {
+.product-introduce {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-l);
+  line-height: 51px;
   text-align: center;
-}
-
-.container-img-icon {
-  display: inline-flex;
-  margin: 0 auto;
-}
-
-.branch-icon {
-  display: inline-block;
-  width: 50px;
-  height: auto;
   padding: 0;
 }
 
-.section-product .container-icon {
-  display: inline;
-  margin: 56px auto 0px;
+.container-img-icon {
+  display: flex;
+  padding-top: 56px;
 }
 
-.section-product .title {
+.container-feature {
+  padding-left: 60px;
+}
+.container-icon {
+  width: 40px;
+  height: auto;
+}
+
+.feature-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-m);
+  line-height: var(--line-height-2xl);
   padding-top: 7px;
   padding-left: 15px;
 }
 
-.icon-title {
-  display: inline-flex;
-
+.container-icon-title {
+  display: flex;
 }
 
-.section-product .content {
+.feature-content {
   padding-left: 8px;
   line-height: 27px;
   font-weight: var(--font-weight-xs);
 }
 
-.branch-img-mobile {
+.product-container-img-mobile {
   display: none;
 }
 
 /* style applied to the mobile */
 @media (max-width: 915px) {
-  .section-product .branch-icon {
+  .container-icon {
     padding: 0;
   }
 
-  .section-product .title {
+  .product-introduce {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .feature-title {
     padding-top: 7px;
   }
 
-  .section-product .content {
-    padding-top: 16px;
-    padding-left: 8px;
+  .feature {
     text-align: justify;
   }
-
   .container-img-icon {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
-  .branch-img-desktop {
+  .product-container-img-desktop {
     display: none;
   }
-  .section-product .branch-container-mobile {
+  .product-container-img-mobile {
+    display: block;
     width: 352px;
     height: auto;
     margin: 33px auto;
   }
 
-  .branch-img-mobile {
-    display: block;
+  .img-mobile {
     width: 100%;
-  }
-
-  .container-icon {
-    margin: 32px auto;
   }
 
   .distance {
@@ -90,8 +90,9 @@
 
 /* style applied to the tablet */
 @media (min-width: 916px) {
-  .branch-container-desktop {
-    margin-top: 80px;
+  .product-container-img-desktop {
+    padding-top: 24px;
+    width: 528px;
   }
 
   .section-product .content {
