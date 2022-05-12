@@ -3,14 +3,6 @@
   padding-top: 150px;
 }
 
-.product-introduce {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-l);
-  line-height: 51px;
-  text-align: center;
-  padding: 0;
-}
-
 .container-img-icon {
   display: flex;
   padding-top: 56px;
@@ -72,12 +64,6 @@
 
   .product-container-img-desktop {
     display: none;
-  }
-  .product-container-img-mobile {
-    display: block;
-    width: 352px;
-    height: auto;
-    margin: 33px auto;
   }
 
   .img-mobile {
