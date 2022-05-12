@@ -57,6 +57,9 @@
 .horizontal-line {
   border: 1px solid #E7E7E7;
 }
+.container-faq {
+  display: grid;
+}
 
 /* style applied to the mobile */
 @media (max-width: 915px) {
@@ -79,6 +82,10 @@
   line-height: 27px;
   padding-left: 16px;
   }
+
+  .container-faq {
+    row-gap: 24px;
+  }
 }
 
 /* style applied to the tablet */
@@ -90,5 +97,10 @@
   .section-question .question {
     padding-left: 16px;
   }
+
+  .container-faq {
+    row-gap: 16px;
+  }
+
 }
 /* END QUESTION */

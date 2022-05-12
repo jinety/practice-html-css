@@ -17,6 +17,7 @@
 }
 
 .container-feature {
+  display: grid;
   padding-left: 60px;
 }
 .container-icon {
@@ -83,8 +84,8 @@
     width: 100%;
   }
 
-  .distance {
-    margin: 24px auto;
+  .container-feature {
+    row-gap: 24px;
   }
 }
 
@@ -101,6 +102,10 @@
 
   .distance {
     margin: 32px auto;
+  }
+
+  .container-feature {
+    row-gap: 32px;
   }
 }
 /* END PRODUCT */
