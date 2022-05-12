@@ -76,11 +76,11 @@
     padding-top: 16px;
   } 
 
- .question {
-  font-weight: var(--font-weight-s);
-  font-size: var(--font-size-s);
-  line-height: 27px;
-  padding-left: 16px;
+  .question {
+    font-weight: var(--font-weight-s);
+    font-size: var(--font-size-s);
+    line-height: 27px;
+    padding-left: 16px;
   }
 
   .container-faq {
@@ -101,6 +101,5 @@
   .container-faq {
     row-gap: 16px;
   }
-
 }
 /* END QUESTION */
