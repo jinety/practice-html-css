@@ -1,10 +1,14 @@
 /* START PRICING */
 .section-pricing {
-  margin: 50px auto 150px;
   text-align: center;
   background: var(--secondary-color-100);
+  padding: 50px 0 150px;
+}
+
+.section-pricing .general-container{
   max-width: 1240px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .cards {

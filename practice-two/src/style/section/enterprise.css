@@ -1,12 +1,12 @@
 /* START ENTERPRISE */
 .section-enterprise {
   text-align: center;
-  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
 }
 
-.general-content {
+.general-container {
   max-width: 1240px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .section-enterprise .content {

@@ -9,6 +9,7 @@
 
 .container-img-icon {
   display: inline-flex;
+  margin: 0 auto;
 }
 
 .branch-icon {
@@ -91,6 +92,10 @@
 @media (min-width: 916px) {
   .branch-container-desktop {
     margin-top: 80px;
+  }
+
+  .section-product .content {
+    width: 533px;
   }
 
   .distance {

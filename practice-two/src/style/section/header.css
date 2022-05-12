@@ -1,11 +1,14 @@
 /* START MAIN HEADER */
 .site-header {
+  background: var(--secondary-color-100);
+}
+
+.site-header .general-container{
   max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
-  padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
 }
 
 .branch-container {
