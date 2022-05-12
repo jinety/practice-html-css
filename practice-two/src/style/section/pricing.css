@@ -1,14 +1,38 @@
 /* START PRICING */
 .section-pricing {
-  margin: 50px auto 150px;
-  text-align: center;
   background: var(--secondary-color-100);
+}
+
+.section-pricing .general-container {
+  text-align: center;
   max-width: 1240px;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 50px 20px 150px;
+}
+
+.pricing-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-m);
+  line-height: var(--line-height-2xl);
+}
+
+.pricing-introduce {
+  font-size: 40px;
+  font-weight: var(--font-weight-l);
+  line-height: 60px;
+  padding-top: 32px;
+}
+
+.pricing-content {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-s);
+  padding-top: 16px;
 }
 
 .cards {
-  margin-top: 50px;
+  justify-content: space-between;
+  margin: 50px auto 0;
 }
 
 .card {
@@ -17,7 +41,6 @@
   align-items: center;
   border-radius: 8px;
   width: 30%;
-  margin: 0 auto;
 }
 
 .card-title {
@@ -90,14 +113,13 @@
 .card:hover * {
   color: var(--secondary-color-100);
 }
+.section-pricing .secondary-btn {
+  margin: 38px auto 32px;
+}
 
 .card:hover .secondary-btn {
   background-color: var(--secondary-color-100);
   color: var(--primary-color-100);
-}
-
-.mr-btn {
-  margin: 38px auto 32px;
 }
 
 /* style applied to the mobile */
@@ -134,11 +156,6 @@
 
 /* style applied to the tablet */
 @media (min-width: 916px) {
-  .general-content {
-    justify-content: center;
-    margin: 0 auto;
-  }
-
   .introduce {
     margin-top: 32px;
   }
