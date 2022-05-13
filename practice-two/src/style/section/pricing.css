@@ -50,7 +50,7 @@
   padding-top: 24px;
 }
 
-.brief {
+.card-description {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-xs);
   line-height: var(--line-height-5xl);
