@@ -51,13 +51,12 @@
 .menu-item-link {
   line-height: 35px;
   color: var(--primary-color-200);
+  font-weight: var(--font-weight-xs);
   padding: 10px 0;
 }
 
 .footer-title {
-  padding-top: 0;
   font-size: var(--font-size-m);
-  font-weight: var(--font-weight-m);
   line-height: var(--line-height-xl);
 }
 
@@ -86,9 +85,6 @@
 
 .footer-copy-right {
   text-align: center;
-}
-
-.footer-content {
   font-size: var(--font-size-xs);
   line-height: var(--line-height-xl);
   font-weight: var(--font-weight-xs);
@@ -130,7 +126,6 @@
 @media (min-width: 916px) {
   .quick-link, 
   .legal-stuff {
-    padding-top: 0;
     margin: 0 auto;
     width: 140px;
   }
