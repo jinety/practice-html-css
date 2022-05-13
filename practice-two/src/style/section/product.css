@@ -3,19 +3,6 @@
   padding-top: 150px;
 }
 
-.product-introduce {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-l);
-  line-height: 51px;
-  text-align: center;
-  padding: 0;
-}
-
-.product-group {
-  display: flex;
-  padding-top: 56px;
-}
-
 .product-box {
   display: grid;
   padding-left: 60px;
@@ -72,16 +59,6 @@
 
   .product-img-desktop {
     display: none;
-  }
-  .product-img-mobile {
-    display: block;
-    width: 352px;
-    height: auto;
-    margin: 33px auto;
-  }
-
-  .img-mobile {
-    width: 100%;
   }
 
   .product-box {
