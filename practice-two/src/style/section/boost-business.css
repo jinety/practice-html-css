@@ -20,7 +20,7 @@
   margin: 0 auto;
 }
 
-.boost-business-cell {
+.boost-business-wrap {
   display: inline-flex;
   flex-direction: column;
   margin: 0 auto;
@@ -45,7 +45,7 @@
     display: block;
   }
 
-  .boost-business-cell {
+  .boost-business-wrap {
     align-items: center;
   }
 

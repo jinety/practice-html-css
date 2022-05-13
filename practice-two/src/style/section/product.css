@@ -16,7 +16,7 @@
   padding-top: 56px;
 }
 
-.product-column {
+.product-box {
   display: grid;
   padding-left: 60px;
 }
@@ -84,7 +84,7 @@
     width: 100%;
   }
 
-  .product-column {
+  .product-box {
     row-gap: 24px;
   }
 }
@@ -100,7 +100,7 @@
     width: 533px;
   }
 
-  .product-column {
+  .product-box {
     row-gap: 32px;
   }
 }
