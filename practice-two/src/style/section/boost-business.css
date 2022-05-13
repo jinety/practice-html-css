@@ -40,6 +40,7 @@
   height: 340px;
 }
 
+/* style applied to the mobile */
 @media (max-width: 915px) {
   .boost-business-group {
     display: block;
@@ -61,6 +62,7 @@
   }
 }
 
+/* style applied to the tablet */
 @media (min-width: 916px) {
   .boost-business-group {
     display: flex;
