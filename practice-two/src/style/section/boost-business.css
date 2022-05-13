@@ -1,17 +1,17 @@
 /* START BOOST-BUSINESS */
 .section-boost-business {
   padding-top: 150px;
-}
-
-.section-boost-business .general-container {
-  max-width: 988px;
-  text-align: center;
+  max-width: 968px; 
+  margin: 0 auto;
 }
 
 .boost-business-group {
+  width: auto;
+  text-align: center;
   background: var(--primary-color-100);
   border-radius: 32px;
-  margin: 0 auto;
+  margin: 0 20px;
+  padding: 0;
 }
 
 .boost-business-container {

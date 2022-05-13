@@ -12,8 +12,8 @@
   margin-top: 50px;
 }
 
-.icon-question {
-  display: inline-flex;
+.faq-container {
+  display: flex;
 }
 
 .section-question .faq-content {
