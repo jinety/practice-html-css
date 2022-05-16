@@ -1,0 +1,142 @@
+/* START FOOTER */
+.site-footer {
+  padding-top: 150px;
+}
+
+.site-footer .general-container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.footer-group {
+  display: flex;
+}
+
+.footer-contact {
+ margin-right: 20px;
+}
+
+.footer-branch-logo,
+.social-network {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-network {
+  padding-top: 25px;
+  justify-content: space-between;
+}
+
+.footer-img {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+.footer-branch-name {
+  display: inline;
+  margin-left: 16px;
+  font-size: 30px;
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
+}
+
+.branch-social-network,
+.menu-item-link {
+  text-decoration: none;
+}
+
+.menu-item-link {
+  line-height: 35px;
+  color: var(--primary-color-200);
+  font-weight: var(--font-weight-xs);
+  padding: 10px 0;
+}
+
+.footer-title {
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-xl);
+}
+
+.title-secondary {
+  width: 280px;
+}
+
+.textbox {
+  display: block;
+  width: 325px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 34px;
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-m);
+}
+
+.site-footer .secondary-btn {
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+
+.site-nav-footer {
+  padding-top: 8px;
+}
+
+.footer-copy-right {
+  text-align: center;
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xl);
+  font-weight: var(--font-weight-xs);
+}
+
+/* style applied to the mobile */
+@media (max-width: 915px) {
+  .footer-group {
+    display: block;
+    text-align: center;
+  }
+  
+  .footer-contact {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .title-secondary {
+    margin: 0 auto;
+  }
+
+  .quick-link,
+  .legal-stuff,
+  .text-input {
+    margin-top: 32px;
+  }
+
+  .textbox {
+    margin: 34px auto 0;
+  }
+
+  .footer-copy-right {
+    width: 400px;
+    margin: 32px auto 22px;
+  }
+}
+
+/* style applied to the tablet */
+@media (min-width: 916px) {
+  .quick-link, 
+  .legal-stuff {
+    margin: 0 auto;
+    width: 140px;
+  }
+
+  .text-input {
+    margin: 0 auto;
+  }
+
+  .footer-copy-right {
+    margin: 17px auto 39px;
+  }
+}
+/* END FOOTER */

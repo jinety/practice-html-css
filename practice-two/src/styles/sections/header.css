@@ -1,0 +1,116 @@
+/* START MAIN HEADER */
+.site-header {
+  background: var(--secondary-color-100);
+}
+
+.site-header .general-container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.branch-container {
+  display: inline-flex;
+}
+
+.branch-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.branch-img {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+.branch-name {
+  display: inline;
+  margin-left: 16px;
+  font-size: 30px;
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
+}
+
+.site-nav,
+.nav-menu,
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 24px;
+}
+
+.menu-item-link {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-xl);
+  color: var(--primary-color-200);
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.menu-item-link:hover {
+  font-weight: var(--font-weight-m);
+  color: var(--primary-color-300);
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.btn {
+  color: var(--primary-color-200);
+}
+
+.navbar {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: var( --primary-color-300);
+  margin: 6px 0; 
+}
+
+/* style applied to the mobile */
+@media (max-width: 915px) {
+  .site-header {
+    height: 70px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    padding: 20px 10px;
+  }
+}
+
+/* style applied to the tablet */
+@media (min-width: 916px) {
+  .site-header {
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .site-nav {
+    padding-top: 5px;
+  }
+}
+/* END MAIN HEADER */
