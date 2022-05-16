@@ -13,12 +13,12 @@
 
 .product-group {
   display: flex;
+  justify-content: space-between;
   padding-top: 56px;
 }
 
 .product-box {
   display: grid;
-  padding-left: 60px;
 }
 .feature-icon {
   width: 40px;
@@ -54,13 +54,20 @@
   }
 
   .product-introduce {
+    width: 342px;
     font-size: 32px;
     line-height: 48px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .feature-title {
     padding-top: 7px;
+  }
+
+  .feature-content {
+    width: 334px;
+    margin: auto;
   }
 
   .feature {
@@ -86,6 +93,13 @@
 
   .product-box {
     row-gap: 24px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .feature-container {
+    margin: 0 auto;
+    width: 350px;
   }
 }
 
@@ -93,6 +107,7 @@
 @media (min-width: 916px) {
   .product-img-desktop {
     padding-top: 24px;
+    padding-left: 20px;
     width: 528px;
   }
 
@@ -101,6 +116,7 @@
   }
 
   .product-box {
+    width: 533px;
     row-gap: 32px;
   }
 }

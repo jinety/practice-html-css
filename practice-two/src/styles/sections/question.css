@@ -69,10 +69,15 @@
   }
 
   .question-content {
+    width: 310px;
+    margin: 0 auto;
     padding: 16px 0px 30px;
   }
   
   .answer {
+    width: 353px;
+    text-align: left;
+    margin: 0 auto;
     padding-top: 16px;
   } 
 
@@ -91,7 +96,9 @@
 /* style applied to the tablet */
 @media (min-width: 916px) {
   .answer {
+    width: 920px;
     padding-top: 14px;
+    text-align: left;
   }
 
   .section-question .question {

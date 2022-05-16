@@ -1,0 +1,16 @@
+/* reset */
+@import url("../styles/reset.css");
+
+/* common */
+@import url("../styles/common/variables.css");
+@import url("../styles/common/button.css");
+
+/* sections */
+@import url("../styles/sections/header.css");
+@import url("../styles/sections/pricing.css");
+@import url("../styles/sections/enterprise.css");
+@import url("../styles/sections/product.css");
+@import url("../styles/sections/question.css");
+@import url("../styles/sections/boost-business.css");
+@import url("../styles/sections/footer.css");
+

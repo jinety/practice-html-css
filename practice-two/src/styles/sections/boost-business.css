@@ -52,13 +52,16 @@
 
   .boost-business-title {
     text-align: center;
-    width: 327px;
+    width: 328px;
     padding-top: 17px;
   }
 
   .section-boost-business .btn {
     margin-top: 70px;
     margin-bottom: 42px;
+  }
+  .boost-business-container {
+    width: 328px;
   }
 }
 
@@ -67,9 +70,12 @@
   .boost-business-group {
     display: flex;
   }
+  
 
   .boost-business-title {
     padding-top: 49px;
+    width: 440px;
+    text-align: left;
   }
 
   .section-boost-business .btn {
