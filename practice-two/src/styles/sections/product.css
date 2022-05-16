@@ -20,6 +20,7 @@
 .product-box {
   display: grid;
 }
+
 .feature-icon {
   width: 40px;
   height: auto;
@@ -79,16 +80,6 @@
 
   .product-img-desktop {
     display: none;
-  }
-  .product-img-mobile {
-    display: block;
-    width: 352px;
-    height: auto;
-    margin: 33px auto;
-  }
-
-  .img-mobile {
-    width: 100%;
   }
 
   .product-box {
