@@ -26,6 +26,7 @@
 }
 
 .feature-title {
+  width: 100%;
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-m);
   line-height: var(--line-height-2xl);
@@ -50,7 +51,7 @@
 /* style applied to the mobile */
 @media (max-width: 915px) {
   .product-introduce {
-    width: 342px;
+    width: 100%;
     font-size: 32px;
     line-height: 48px;
     text-align: center;
@@ -58,7 +59,7 @@
   }
 
   .feature-content {
-    width: 334px;
+    width: 85%;
     margin: auto;
   }
 
@@ -81,7 +82,7 @@
 
   .feature-container {
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
   }
 }
 

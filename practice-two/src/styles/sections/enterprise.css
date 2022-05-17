@@ -40,14 +40,14 @@
   }
 
   .enterprise-introduce {
-    width: 335px;
+    width: 90%;
     line-height: 48px;
     font-size: 32px;
     margin: 24px auto;
   }
   
   .enterprise-content {
-    width: 320px;
+    width: 86%;
     align-items: center;
     margin: 0 auto;
   }

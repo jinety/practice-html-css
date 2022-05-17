@@ -52,7 +52,7 @@
 
   .boost-business-title {
     text-align: center;
-    width: 328px;
+    width: 90%;
     padding-top: 17px;
   }
 
@@ -61,7 +61,7 @@
     margin-bottom: 42px;
   }
   .boost-business-container {
-    width: 328px;
+    width: 100%;
   }
 }
 
