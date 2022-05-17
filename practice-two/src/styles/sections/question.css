@@ -64,6 +64,8 @@
 /* style applied to the mobile */
 @media (max-width: 915px) {
   .question-introduce {
+    width: 326px;
+    margin: 0 auto;
     font-size: 32px;
     line-height: 48px;
   }
@@ -72,6 +74,12 @@
     width: 310px;
     margin: 0 auto;
     padding: 16px 0px 30px;
+  }
+
+  .faq-wrap {
+    margin: 0 auto;
+    width: 355px;
+    text-align: left;
   }
   
   .answer {
