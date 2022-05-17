@@ -61,10 +61,6 @@
   color: var(--primary-color-300);
 }
 
-.mr-24 {
-  margin-right: 24px;
-}
-
 .btn {
   color: var(--primary-color-200);
 }
@@ -111,6 +107,10 @@
 
   .site-nav {
     padding-top: 5px;
+  }
+
+  .mr-24 {
+    margin-right: 24px;
   }
 }
 /* END MAIN HEADER */

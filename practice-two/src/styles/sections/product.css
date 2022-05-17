@@ -8,7 +8,6 @@
   font-weight: var(--font-weight-l);
   line-height: 51px;
   text-align: center;
-  padding: 0;
 }
 
 .product-group {
@@ -50,10 +49,6 @@
 
 /* style applied to the mobile */
 @media (max-width: 915px) {
-  .feature-icon {
-    padding: 0;
-  }
-
   .product-introduce {
     width: 342px;
     font-size: 32px;
@@ -62,17 +57,13 @@
     margin: 0 auto;
   }
 
-  .feature-title {
-    padding-top: 7px;
-  }
-
   .feature-content {
     width: 334px;
     margin: auto;
   }
 
   .feature {
-    text-align: justify;
+    text-align: left;
   }
   .product-group {
     display: block;

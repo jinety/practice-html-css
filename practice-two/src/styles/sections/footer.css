@@ -12,10 +12,6 @@
   display: flex;
 }
 
-.footer-contact {
- margin-right: 20px;
-}
-
 .footer-branch-logo,
 .social-network {
   display: flex;
@@ -125,6 +121,10 @@
 
 /* style applied to the tablet */
 @media (min-width: 916px) {
+  .footer-contact {
+    margin-right: 20px;
+   }
+   
   .quick-link, 
   .legal-stuff {
     margin: 0 auto;
