@@ -1,5 +1,4 @@
 /* START MAIN HEADER */
-
 /* style applied to the mobile */
 .site-header {
   background: var(--secondary-color-100);
@@ -73,12 +72,6 @@
   color: var(--primary-color-300);
 }
 
-.btn {
-  color: var(--primary-color-200);
-}
-
-
-
 .bar {
   width: 35px;
   height: 5px;
@@ -87,7 +80,7 @@
 }
 
 /* style applied to the tablet */
-@media (min-width: 641px) {
+@media (min-width: 1024px) {
   .site-header {
     height: 80px;
     margin: 0 auto;
@@ -95,6 +88,10 @@
 
   .site-nav {
     padding-top: 5px;
+  }
+
+  .btn {
+    color: var(--primary-color-200);
   }
 
   .mr-24 {

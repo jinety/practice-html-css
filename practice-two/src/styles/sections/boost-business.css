@@ -1,4 +1,5 @@
 /* START BOOST-BUSINESS */
+/* style applied to the mobile */
 .section-boost-business {
   padding-top: 150px;
   max-width: 968px; 
@@ -6,6 +7,7 @@
 }
 
 .boost-business-group {
+  display: block;
   width: auto;
   text-align: center;
   background: var(--primary-color-100);
@@ -15,16 +17,16 @@
 }
 
 .boost-business-container {
-  width: 361px;
-  height: auto;
   margin: 0 auto;
+  width: 100%;
 }
 
 .boost-business-wrap {
   display: inline-flex;
   flex-direction: column;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
+  align-items: center;
 }
 
 .boost-business-title {
@@ -33,6 +35,10 @@
   font-size: 32px;
   line-height: 48.45px;
   width: 500px;
+
+  text-align: center;
+  width: 90%;
+  padding-top: 17px;
 }
 
 .img-boost-business {
@@ -40,38 +46,17 @@
   height: 340px;
 }
 
-/* style applied to the mobile */
-@media (max-width: 915px) {
-  .boost-business-group {
-    display: block;
-  }
-
-  .boost-business-wrap {
-    align-items: center;
-  }
-
-  .boost-business-title {
-    text-align: center;
-    width: 90%;
-    padding-top: 17px;
-  }
-
-  .section-boost-business .btn {
-    margin-top: 70px;
-    margin-bottom: 42px;
-  }
-  .boost-business-container {
-    width: 100%;
-  }
+.section-boost-business .btn {
+  margin-top: 70px;
+  margin-bottom: 42px;
 }
 
 /* style applied to the tablet */
-@media (min-width: 916px) {
+@media (min-width: 1024px) {
   .boost-business-group {
     display: flex;
   }
   
-
   .boost-business-title {
     padding-top: 49px;
     width: 440px;
@@ -85,6 +70,11 @@
 
   .img-boost-business {
     padding-top: 14px;
+  }
+
+  .boost-business-wrap {
+    padding-left: 51px;
+    align-items: flex-start;
   }
 }
 /* END BOOST-BUSINESS */

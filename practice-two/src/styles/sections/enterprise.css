@@ -1,4 +1,5 @@
 /* START ENTERPRISE */
+/* style applied to the mobile */
 .section-enterprise {
   text-align: center;
 }
@@ -13,16 +14,28 @@
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-m);
   line-height: var(--line-height-2xl);
+  padding-top: 47px;
 }
 
 .enterprise-introduce {
   font-weight: var(--font-weight-l);
+  width: 90%;
+  line-height: 48px;
+  font-size: 32px;
+  margin: 24px auto;
 }
 
 .enterprise-content {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-xs);
   line-height: var(--line-height-s);
+  width: 86%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.secondary-btn {
+  margin: 32px auto 46px;
 }
 
 .secondary-btn:hover {
@@ -33,39 +46,16 @@
   margin: 38px auto 51px;
 }
 
-/* style applied to the mobile */
-@media (max-width: 915px) {
-  .enterprise-title {
-    padding-top: 47px;
-  }
-
-  .enterprise-introduce {
-    width: 90%;
-    line-height: 48px;
-    font-size: 32px;
-    margin: 24px auto;
-  }
-  
-  .enterprise-content {
-    width: 86%;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .secondary-btn {
-    margin: 32px auto 46px;
-  }
-}
-
 /* style applied to the tablet  */
-@media (min-width: 916px) {
+@media (min-width: 1024px) {
   .enterprise-title {
     padding-top: 53px;
   }
 
   .enterprise-introduce {
-    margin-top: 16px;
-    font-size: 40px;
+    margin: 16px auto 0;
+    font-size: 34px;
+    line-height: 51px;
     line-height: 60px;
   }
 

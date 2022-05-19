@@ -1,6 +1,8 @@
 /* START PRICING */
+/* style applied to the mobile */
 .section-pricing {
   background: var(--secondary-color-100);
+  text-align: center;
 }
 
 .section-pricing .general-container {
@@ -17,28 +19,36 @@
 }
 
 .pricing-introduce {
-  font-size: 40px;
+  /* font-size: 40px; */
   font-weight: var(--font-weight-l);
-  line-height: 60px;
+  /* line-height: 60px; */
+  width: 100%;
+  margin: 30px auto 0;
+  font-size: 36px;
+  line-height: 54px;
 }
 
 .pricing-content {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-s);
   line-height: var(--line-height-s);
+  width: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 18px auto;
 }
 
 .cards {
-  justify-content: space-between;
-  margin: 50px auto 0;
+  align-items: center;
+  width: 50px auto 0px;
 }
 
 .card {
   background: var(--secondary-color-100);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
-  align-items: center;
   border-radius: 8px;
-  width: 30%;
+  width: 322.65px;
+  margin: 0 auto 32px;
 }
 
 .card-title {
@@ -120,41 +130,11 @@
   color: var(--primary-color-100);
 }
 
-/* style applied to the mobile */
-@media (max-width: 915px) {
-  .section-pricing {
-    text-align: center;
-  }
-
-  .pricing-introduce {
-    width: 100%;
-    margin: 30px auto 0;
-    font-size: 36px;
-    line-height: 54px;
-  }
-  
-  .pricing-content {
-    width: 100%;
-    letter-spacing: 0;
-    text-align: center;
-    margin: 18px auto;
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    width: 50px auto 0px;
-  }
-
-  .card {
-    width: 70%;
-    margin: 0 auto 32px;
-  }
-}
-
 /* style applied to the tablet */
-@media (min-width: 916px) {
+@media (min-width: 1024px) {
   .pricing-introduce {
+    font-size: 40px;
+    line-height: 60px;
     margin-top: 32px;
   }
 
@@ -164,7 +144,12 @@
 
   .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin-top: 50px;
+  }
+
+  .card {
+    margin: 0;
   }
 }
 /* END PRICING */

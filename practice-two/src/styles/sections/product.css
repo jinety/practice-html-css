@@ -1,23 +1,31 @@
 /* START PRODUCT */
+/* style applied to the mobile */
 .section-product {
   padding-top: 150px;
 }
 
 .product-introduce {
-  font-size: var(--font-size-xl);
   font-weight: var(--font-weight-l);
-  line-height: 51px;
+  width: 90%;
+  font-size: 32px;
+  line-height: 48px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .product-group {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 56px;
+  padding-top: 33px;
+  display: block;
 }
 
 .product-box {
   display: grid;
+  row-gap: 24px;
+  margin: 32px auto;
+}
+
+.feature {
+  text-align: left;
 }
 
 .feature-icon {
@@ -36,58 +44,41 @@
 
 .feature-container {
   display: flex;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .feature-content {
   padding-left: 8px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 28px;
   font-weight: var(--font-weight-xs);
+  width: 85%;
 }
 
 .product-img-mobile {
+  display: block;
+  width: 352px;
+  margin: 0 auto;
+}
+
+.img-mobile {
+  width: 100%;
+}
+
+.product-img-desktop {
   display: none;
 }
 
-/* style applied to the mobile */
-@media (max-width: 915px) {
-  .product-introduce {
-    width: 100%;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .feature-content {
-    width: 85%;
-    margin: auto;
-  }
-
-  .feature {
-    text-align: left;
-  }
-  .product-group {
-    display: block;
-  }
-
-  .product-img-desktop {
-    display: none;
-  }
-
-  .product-box {
-    row-gap: 24px;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .feature-container {
-    margin: 0 auto;
-    width: 100%;
-  }
-}
-
 /* style applied to the tablet */
-@media (min-width: 916px) {
+@media (min-width: 1024px) {
+  .product-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-xl);
+    line-height: 51px;
+  }
+
   .product-img-desktop {
     padding-top: 24px;
     padding-left: 20px;
@@ -98,9 +89,25 @@
     width: 533px;
   }
 
+  .feature-content {
+    width: 99%;
+  }
+
   .product-box {
     width: 533px;
     row-gap: 32px;
+  }
+
+  .product-img-desktop {
+    display: block;
+  }
+
+  .img-desktop {
+    width: 100%;
+  }
+
+  .product-img-mobile {
+    display: none;
   }
 }
 /* END PRODUCT */
