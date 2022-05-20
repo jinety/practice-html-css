@@ -1,7 +1,7 @@
 # Design a responsive website
 > A simple website.
 
-`Product` is the site to practice frontend during html/css training.
+Build a site to practice frontend during HTML/CSS training.
 
 ## Getting Started 
 
@@ -27,8 +27,16 @@ Before you continue, ensure you meet the following requirements:
 * Parcel
 
 ### Executing program
-* Go to VScode and open the html file.
-* Then select Run and Start debugging (or you can press the F5 key to run the program)
+* Step 1: clone repository <br>
+  `git clone https://github.com/jinety/practice-html-css/tree/feature/practice-three`
+* Step 2: cd folder practice-1 <br>
+  `cd practice-three`
+* Step 3: Setting Parcel <br>
+  `npm install --save-dev parcel`
+* Step 4: Run project <br>
+  `npx parcel src/index.html`
+* Step 5: Open this file in a browser to see the results <br>
+ `http://localhost:1234`
 
 ## Author
 **Hoa Nguyen**
