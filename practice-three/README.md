@@ -31,16 +31,12 @@ Before you continue, ensure you meet the following requirements:
   
   `git clone https://github.com/jinety/practice-html-css/tree/feature/practice-three`
 * Step 2: cd folder practice-1 
-  
   `cd practice-three`
 * Step 3: Setting Parcel 
-  
   `npm install`
 * Step 4: Run project 
-  
   `npm start`
 * Step 5: Open this file in a browser to see the results 
- 
   `http://localhost:1234`
 
 ## Author
