@@ -1,0 +1,155 @@
+/* START PRICING */
+/* style applied to the mobile */
+.section-pricing {
+  background: var(--secondary-color-100);
+  text-align: center;
+}
+
+.section-pricing .general-container {
+  text-align: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px 150px;
+}
+
+.pricing-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-m);
+  line-height: var(--line-height-2xl);
+}
+
+.pricing-introduce {
+  /* font-size: 40px; */
+  font-weight: var(--font-weight-l);
+  /* line-height: 60px; */
+  width: 100%;
+  margin: 30px auto 0;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.pricing-content {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-s);
+  width: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 18px auto;
+}
+
+.cards {
+  align-items: center;
+  width: 50px auto 0px;
+}
+
+.card {
+  background: var(--secondary-color-100);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 322.65px;
+  margin: 0 auto 32px;
+}
+
+.card-title {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-5xl);
+  padding-top: 24px;
+}
+
+.card-description {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-5xl);
+  padding-top: 8px;
+}
+
+.money-per-month {
+  display: inline-flex;
+  color: var(--primary-color-100);
+}
+
+.money {
+  font-size: 76px;
+  font-weight: var(--font-weight-l);
+  line-height: 100px;
+  padding-top: 16px;
+}
+
+.dollar-month {
+  flex-direction: column;
+  padding-left: 8px;
+  padding-top: 40px;
+}
+
+.dollar {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-l);
+  line-height: var(--line-height-2xl);
+  padding-right: 80px;
+}
+
+.per-month {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-xs);
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: var(--secondary-color-200);
+}
+
+.information {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-s);
+  line-height: var(--line-height-s);
+  font-family: var(--secondary-font);
+}
+
+.quantity {
+  padding-bottom: 16px;
+}
+
+.landing-pages {
+  padding-top: 16px;
+}
+
+.card:hover {
+  background-color: var(--primary-color-100);
+  cursor: pointer;
+}
+
+.card:hover * {
+  color: var(--secondary-color-100);
+}
+.section-pricing .secondary-btn {
+  margin: 38px auto 32px;
+}
+
+.card:hover .secondary-btn {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-100);
+}
+
+/* style applied to the tablet */
+@media (min-width: 1024px) {
+  .pricing-introduce {
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 32px;
+  }
+
+  .pricing-content {
+    margin-top: 16px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+  }
+
+  .card {
+    margin: 0;
+  }
+}
+/* END PRICING */
