@@ -1,7 +1,9 @@
+/* base */
+@import url(./base/reset.css);
+
 /* abstract */
+@import url(./abstract/variables.css);
+@import url(./abstract/colors.css);
 
 /* components */
-
-/*layout*/
-
-/*page*/
+@import url(./components/button.css);
