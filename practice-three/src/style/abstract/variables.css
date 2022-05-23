@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  /* FONT SIZE */
+  --font-size-s: 14px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+  --font-size-xl: 48px;
+
+  /* LINE HEIGHT */
+  --line-height-s: 24px;
+  --line-height-m: 27px;
+  --line-height-2xl: 36px;
+  --line-height-3xl: 60px;
+
+  /* FONT WEIGHT */
+  --font-weight-xs: 400;
+  --font-weight-s: 600;
+  --font-weight-m: 700;
+  --font-weight-l: 800;
+
+  /* FONT FAMILY */
+  --primary-font: 'Manrope', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+}
