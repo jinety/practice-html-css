@@ -1,0 +1,7 @@
+.btn {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-300);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
