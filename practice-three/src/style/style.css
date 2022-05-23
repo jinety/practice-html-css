@@ -1,15 +1,9 @@
 /* reset */
-@import url("./base/reset.css");
 
 /* abstract */
-@import url("./abstract/variables.css");
-@import url("./abstract/colors.css");
 
 /* component */
-@import url("./component/button.css");
 
 /*layout*/
-@import url(./layout/navbar.css);
-@import url(./layout/header.css);
 
 /*page*/
