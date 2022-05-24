@@ -7,7 +7,7 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: var(--font-size-l);
 }
 
 .introduce {
@@ -23,6 +23,3 @@
     font-size: var(--font-size-m);
   } 
 }
-
-
-

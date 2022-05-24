@@ -1,9 +1,8 @@
 .hamburger-icon {
   height: 20px;
   width: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  row-gap: 7px;
 }
 
 .line {
@@ -12,4 +11,3 @@
   border-radius: 10px;
   background: #0e2431;
 }
-

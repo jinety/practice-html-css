@@ -21,10 +21,8 @@
   display: none;
 }
 
-.header-btn {
-  /* padding: 10px 20px; */
-  margin-top: 35px;
-  margin-bottom: 23px;
+.header-btn { 
+  margin: 35px 23px 23px 0;
   font-weight: var(--font-weight-m);
   font-size: var( --font-size-s);
   line-height: 20px;
