@@ -27,7 +27,6 @@
 }
 
 .hamburger-icon {
-  display: block;
   padding-top: 40px;
   padding-left: 25px;
 }
@@ -90,7 +89,7 @@
     padding-bottom: 168px;
   }
 
-  .hamburger-icon {
+  .line {
     display: none;
   }
 
