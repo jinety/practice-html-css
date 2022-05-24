@@ -1,0 +1,10 @@
+.title  {
+  font-weight: var(--font-weight-l);
+  font-size: var(--font-size-xl);
+}
+
+.introduce {
+  font-weight: var(--font-weight-xs);
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-s);
+}

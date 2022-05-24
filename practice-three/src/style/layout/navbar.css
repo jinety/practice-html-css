@@ -1,0 +1,10 @@
+.hamburger-icon {
+  cursor: pointer;
+  border: 2px;
+}
+
+.bar {
+  width: 30px;
+  height: 2px;
+  background-color: var(--primary-color-100);
+}

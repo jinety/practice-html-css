@@ -7,3 +7,8 @@
 
 /* components */
 @import url(./components/button.css);
+@import url(./components/text.css);
+
+/* layout */
+@import url(./layout/header.css);
+@import url(./layout/navbar.css);
