@@ -29,7 +29,7 @@
 }
 
 .hamburger-icon {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 25px;
 }
 
@@ -54,7 +54,6 @@
 
 .register-form {
   width: 335px;
-  height: 60px;
   margin: 0 auto;
   background-color: var(--primary-color-300);
   border-radius: 8px;
@@ -77,14 +76,12 @@
   font-size: var(--font-size-s);
   line-height: 19px;
   display: inline-block;
-  border-radius: 8px;
-  padding: 16px 15px;
 }
 
 /* DESKTOP */
 @media (min-width: 651px) {
   .site-header {
-    max-width: 1440px;
+    width: 100%;
     background-image: url(/src/assets/bgr-header-desktop.png);
     background-size: cover;
     background-position: right 20%;
@@ -146,7 +143,6 @@
 
   .register-form {
     width: 502px;
-    height: 72px;
     margin-left: 122px;
     margin-top: 32px;
   }

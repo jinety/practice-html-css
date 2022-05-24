@@ -1,12 +1,10 @@
 .hamburger-icon {
-  height: 20px;
   width: 32px;
-  display: grid;
-  row-gap: 7px;
 }
 
 .line {
-  height: 3px;
+  display: inline-block;
+  height: 4px;
   width: 100%;
   border-radius: 10px;
   background: #0e2431;

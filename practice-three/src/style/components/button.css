@@ -8,5 +8,11 @@
 }
 
 .btn-big {
-  padding: 15px 30px;
+  padding: 16px 15px;
+}
+
+@media (min-width: 651px) {
+  .btn-big {
+    padding: 15px 30px;
+  }
 }
