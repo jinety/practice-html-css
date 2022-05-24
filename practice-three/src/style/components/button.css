@@ -1,7 +1,17 @@
-.btn {
+.btn-m {
   background-color: var(--secondary-color-100);
   color: var(--primary-color-300);
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  padding: 10px 30px;
+}
+
+.btn-l {
+  background-color: var(--secondary-color-100);
+  color: var(--primary-color-300);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 30px;
 }

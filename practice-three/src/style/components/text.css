@@ -1,10 +1,28 @@
-.title  {
+.text-bold {
   font-weight: var(--font-weight-l);
-  font-size: var(--font-size-xl);
+}
+
+.text-light {
+  font-weight: (--font-weight-xs);
+}
+
+.title {
+  font-size: 24px;
 }
 
 .introduce {
-  font-weight: var(--font-weight-xs);
   font-size: var(--font-size-s);
-  line-height: var(--line-height-s);
 }
+
+@media (min-width: 651px) { 
+  .title {
+    font-size: 48px;
+  }
+
+  .introduce {
+    font-size: var(--font-size-m);
+  } 
+}
+
+
+

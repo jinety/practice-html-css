@@ -8,7 +8,7 @@
 /* components */
 @import url(./components/button.css);
 @import url(./components/text.css);
+@import url(./components/navbar.css);
 
 /* layout */
 @import url(./layout/header.css);
-@import url(./layout/navbar.css);
