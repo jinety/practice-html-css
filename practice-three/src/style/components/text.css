@@ -1,8 +1,11 @@
-.text-bold {
+html {
+  font-family: var(--primary-font);
+}
+.text-bold-800 {
   font-weight: var(--font-weight-l);
 }
 
-.text-bold-light {
+.text-bold-700 {
   font-weight: var(--font-weight-m);
 }
 
@@ -18,12 +21,12 @@
   font-size: var(--font-size-s);
 }
 
-@media (min-width: 651px) { 
+@media (min-width: 1024px) { 
   .title {
     font-size: var(--font-size-xl);
   }
 
   .introduce {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
   } 
 }
