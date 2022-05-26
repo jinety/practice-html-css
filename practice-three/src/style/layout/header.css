@@ -35,21 +35,23 @@
 }
 
 .header-content {
+  width: 90%;
   padding-bottom: 166px;
   padding-top: 62px;
+  margin: 0 auto;
 }
 
 .header-content-title {
-  width: 90%;
+  width: 100%;
   line-height: 30px;
   text-align: center;
-  margin: 0 auto 10px;
+  margin-bottom: 10px;
 }
 
 .introduce {
   line-height: 24px;
-  width: 90%;
-  margin: 0 auto 60px;
+  width: 100%;
+  margin-bottom: 60px;
   letter-spacing: 0.2px;
   text-align: center;
 }
@@ -121,12 +123,12 @@
   }
 
   .header-content-title {
-    width: 80%;
+    width: 100%;
     margin: 0 auto 15px;
   }
 
   .header-content-introduce {
-    width: 80%;
+    width: 100%;
     margin: 0 auto 50px;
   }
 
