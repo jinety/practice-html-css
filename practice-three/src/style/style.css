@@ -13,3 +13,6 @@
 
 /* layout */
 @import url(./layout/header.css);
+
+/* PAGE */
+@import url(./page/introduce.css);
