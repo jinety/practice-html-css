@@ -1,5 +1,6 @@
 /* base */
 @import url(./base/reset.css);
+@import url(./base/typography.css);
 
 /* abstract */
 @import url(./abstract/variables.css);
@@ -7,3 +8,8 @@
 
 /* components */
 @import url(./components/button.css);
+@import url(./components/text.css);
+@import url(./components/navbar.css);
+
+/* layout */
+@import url(./layout/header.css);

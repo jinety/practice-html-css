@@ -1,0 +1,31 @@
+.text-bold-800 {
+  font-weight: var(--font-weight-2xl);
+}
+
+.text-bold-700 {
+  font-weight: var(--font-weight-xl);
+}
+
+.title {
+  font-size: var(--font-size-l);
+}
+
+.introduce {
+  font-size: var(--font-size-s);
+}
+
+@media (min-width: 650px) {
+  .title {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1024px) { 
+  .title {
+    font-size: var(--font-size-xl);
+  }
+
+  .introduce {
+    font-size: var(--font-size-l);
+  } 
+}

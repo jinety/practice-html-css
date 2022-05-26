@@ -11,14 +11,14 @@
   /* LINE HEIGHT */
   --line-height-s: 24px;
   --line-height-m: 27px;
-  --line-height-2xl: 36px;
-  --line-height-3xl: 60px;
+  --line-height-l: 36px;
+  --line-height-xl: 60px;
 
   /* FONT WEIGHT */
-  --font-weight-xs: 400;
-  --font-weight-s: 600;
-  --font-weight-m: 700;
-  --font-weight-l: 800;
+  --font-weight-m: 400;
+  --font-weight-l: 600;
+  --font-weight-xl: 700;
+  --font-weight-2xl: 800;
 
   /* FONT FAMILY */
   --primary-font: 'Manrope', sans-serif;

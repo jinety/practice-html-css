@@ -4,4 +4,15 @@
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  padding: 10px 30px;
+}
+
+.btn-big {
+  padding: 16px 15px;
+}
+
+@media (min-width: 651px) {
+  .btn-big {
+    padding: 15px 30px;
+  }
 }
