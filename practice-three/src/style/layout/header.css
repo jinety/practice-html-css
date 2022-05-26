@@ -19,7 +19,6 @@
 .header-btn { 
   margin-top: 35px;
   margin-right: 23px;
-  font-weight: var(--font-weight-m);
   font-size: var( --font-size-s);
   line-height: 20px;
 }
@@ -36,9 +35,7 @@
 
 .header-content {
   width: 90%;
-  padding-bottom: 166px;
-  padding-top: 62px;
-  margin: 0 auto;
+  padding: 62px 18px 166px;
 }
 
 .header-content-title {
@@ -68,7 +65,6 @@
   width: 60%;
   font-size: 12px;
   line-height: 20px;
-  font-weight: var(--font-weight-xs);
   background-color: transparent;
   border-radius: 50px 0 0 50px;
   border: none;
@@ -104,7 +100,6 @@
   }
 
   .menu-item-link {
-    font-weight: var(--font-weight-m);
     font-size: 16px;
     line-height: var(--line-height-s);
     color: var(--primary-color-100);
@@ -208,7 +203,6 @@
   .register-btn {
     font-size: var(--font-size-m);
     line-height: 27px;
-    font-weight: var(--font-weight-m);
   }
 }
 /* END HEADER */
