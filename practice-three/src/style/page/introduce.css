@@ -1,63 +1,45 @@
 /* START INTRODUCE */
-.introduce-content {
-  margin: 30px auto;  
-  width: 80%;
-  text-align: center;
-}
-
 .introduce-title {
-  line-height: 32.78px;
-  width: 100%;
+  line-height: 33px;
   margin-bottom: 30px;
 }
 
 .service-introduction {
-  width: 100%;
-  margin: 0;
   line-height: var(--line-height-s);
+  width: 95%;
+  margin: 0 auto;
 }
 
-.introduce-box {
-  width: 80%;
-  margin: 0 auto 80px;
-  text-align: center;
+.service {
+  margin-bottom: 87px;
 }
 
 .introduce-icon {
   margin-bottom: 10px;
 }
 
-.title-small {
+.service-title {
   margin-bottom: 10px;
   font-size: 20px;
   line-height: 28px;
 }
 
 .content-services {
-  width: 100%;
+  width: 90%;
   font-size: var(--font-size-m);
   line-height: 28px;
   letter-spacing: 0.2px;
+  margin: 0 auto;
 }
 
 /* TABLET */
 @media (min-width: 650px) {
-  .introduce-content {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
   .introduce-title {
     line-height: 30px;
   }
 
-  .introduce-box {
-    width: 80%;    
-    text-align: center;
-    margin: 99px auto 0;
-  }
-
   .service {
+    width: 40%;
     margin: 0 auto 90px;
   }
 
@@ -69,35 +51,36 @@
 
 /* DESKTOP */
 @media (min-width: 1024px) {
-  .introduce-content {
-    width: 68%;
-    margin: 120px auto 108px;
-  }
-
-  .introduce-box {
-    width: 100%;
-    margin-bottom: 140px;
-  }
-
   .introduce-title {
     line-height: 66px;
   }
 
   .service-introduction {
+    width: 100%;
     line-height: var(--line-height-l);
   }
 
   .service {
-    width: 30%;
+    width: 28%;
     display: inline-block;
-    margin: 0 auto;
+    text-align: center;
+    margin-right: 6%;
   }
 
-  .mb-83 {
-    margin-bottom: 83px;
+  .service:nth-child(3) {
+    margin: 0;
   }
 
-  .title-small {
+  .service:nth-child(6) {
+    margin: 0;
+  } 
+
+  .mb-85 {
+    margin-bottom: 85px;
+  }
+
+  .service-title {
+    width: 100%;
     font-size: var(--font-size-l);
     line-height: 33px;
   }
@@ -105,8 +88,8 @@
   .content-services {
     font-size: var(--font-size-m);
     line-height: 27px;
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
   }
 }
 /* END INTRODUCE */

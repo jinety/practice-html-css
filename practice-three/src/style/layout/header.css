@@ -5,6 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 20%;
+  min-width: 375px;
+  /* padding: 35px 20px 166px; */
 }
 
 .header-box {
@@ -34,12 +36,11 @@
 }
 
 .header-content {
-  width: 90%;
-  padding: 62px 18px 166px;
+  padding-top: 62px;
+  padding-bottom: 166px;
 }
 
 .header-content-title {
-  width: 100%;
   line-height: 30px;
   text-align: center;
   margin-bottom: 10px;
@@ -47,7 +48,6 @@
 
 .header-content-introduce {
   line-height: 24px;
-  width: 100%;
   margin-bottom: 60px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -119,6 +119,7 @@
 
   .header-content-title {
     width: 100%;
+    line-height: 50px;
     margin: 0 auto 15px;
   }
 
@@ -181,7 +182,7 @@
   }
 
   .header-content-introduce {
-    width: 100%;
+    width: 84%;
     line-height: var(--line-height-l);
     margin: 0;
     margin-bottom: 35px;
@@ -191,13 +192,14 @@
   .register-form {
     width: 502px;
     margin: 0;
+    text-align: left;
   }
 
   .header-text-input {
-    width: 68%;
+    width: 67%;
     font-size: 16px;
     line-height: var(--line-height-l);
-    padding-right: 0;
+    padding: 18px 0 18px 32px;
   }
 
   .register-btn {
