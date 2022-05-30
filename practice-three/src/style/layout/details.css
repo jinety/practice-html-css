@@ -1,7 +1,7 @@
 /* START DETAILS */
 /* STYLE APPLIED TO THE MOBILE */
 .details-container {
-  min-width: 336px;
+  width: 90%;
   padding: 0 20px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .details-img-mobile {
-  width: 335px;
+  width: 90%;
   margin: 0 auto 30px;
 }
 
@@ -28,7 +28,7 @@
   margin-bottom: 22px;
 }
 
-.details-content-service {
+.long-details-content {
   font-size: var(--font-size-s);
   color: var(--primary-color-200);
   line-height: 28px;
@@ -36,7 +36,8 @@
 }
 
 .details-btn {
-  padding: 12px 133px;
+  padding: 4% 39.5%;
+  font-size: var(--font-size-s);
 }
 
 /* STYLE APPLIED TO THE TABLET */
@@ -50,7 +51,8 @@
   }
 
   .details-btn {
-   padding: 12px 40px;
+    max-width: 40%;
+    padding: 12px 40px;
  }
 
   .details-group:nth-child(2) {
@@ -101,6 +103,10 @@
     line-height: var(--line-height-xl);
     margin-bottom: 31px;
   }
+
+  .details-btn {
+    width: 160px;
+  } 
 
   .long-details-content {
     line-height: 32px;
