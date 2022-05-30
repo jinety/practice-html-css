@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 20%;
+  min-width: 375px;
 }
 
 .header-box {
@@ -18,36 +19,24 @@
 
 .header-btn { 
   margin-top: 35px;
-  margin-right: 23px;
+  margin-right: 20px;
   font-size: var( --font-size-s);
   line-height: 20px;
 }
 
-.hamburger-icon {
-  display: inline-block;
-  padding-top: 47px;
-  padding-left: 23px;
-}
-
-.bar {
-  margin: 6px 0; 
-}
-
 .header-content {
-  width: 90%;
-  padding: 62px 18px 166px;
+  width: 335px;
+  padding: 62px 20px;
 }
 
 .header-content-title {
-  width: 100%;
   line-height: 30px;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.introduce {
+.header-content-introduce {
   line-height: 24px;
-  width: 100%;
   margin-bottom: 60px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -80,6 +69,10 @@
 
 /* TABLET */
 @media (min-width: 650px) {
+  .site-header {
+    width: 100%;
+  }
+
   .hamburger-icon {
     display: none;
   }
@@ -112,13 +105,13 @@
   }
 
   .header-content {
-    width: 60%;
+    width: 70%;
     text-align: center;
-    padding: 114px 122px 168px;
   }
 
   .header-content-title {
     width: 100%;
+    line-height: 50px;
     margin: 0 auto 15px;
   }
 
@@ -169,6 +162,7 @@
 
   .header-content {
     width: 54%;
+    margin: 0;
     padding: 114px 122px 168px;
   }
 
@@ -181,7 +175,7 @@
   }
 
   .header-content-introduce {
-    width: 100%;
+    width: 84%;
     line-height: var(--line-height-l);
     margin: 0;
     margin-bottom: 35px;
@@ -191,13 +185,14 @@
   .register-form {
     width: 502px;
     margin: 0;
+    text-align: left;
   }
 
   .header-text-input {
-    width: 68%;
+    width: 67%;
     font-size: 16px;
     line-height: var(--line-height-l);
-    padding-right: 0;
+    padding: 18px 0 18px 32px;
   }
 
   .register-btn {

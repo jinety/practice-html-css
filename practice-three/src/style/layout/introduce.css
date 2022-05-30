@@ -1,0 +1,133 @@
+/* START INTRODUCE */
+/* STYLE APPLIED TO THE MOBILE */
+.section-introduce {
+  margin-top: 30px;
+}
+.introduce-container {
+  min-width: 375px;
+}
+
+.introduce-content {
+  margin-bottom: 43px;
+  text-align: center;
+}
+
+.introduce-box {
+  margin: 0 20px 43px;
+  text-align: center;
+}
+
+.introduce-title {
+  line-height: initial;
+  margin-bottom: 30px;
+}
+
+.service-introduction {
+  line-height: initial;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.service {
+  margin-bottom: 80px;
+}
+
+.service:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.introduce-icon {
+  margin-bottom: 10px;
+}
+
+.service-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: initial;
+}
+
+.content-services {
+  width: 90%;
+  font-size: var(--font-size-m);
+  line-height: initial;
+  letter-spacing: 0.2px;
+  margin: 0 auto;
+}
+
+/* STYLE APPLIED TO THE TABLET */
+@media (min-width: 650px) {
+  .section-introduce {
+    margin-top: 60px;
+  }
+
+  .introduce-content {
+    margin-bottom: 60px;
+  }
+
+  .service {
+    width: 80%;
+    margin: 0 auto 90px;
+  }
+
+  .content-services {
+    width: 94%;
+  }
+}
+
+/* STYLE APPLIED TO THE DESKTOP */
+@media (min-width: 1024px) {
+  .section-introduce {
+    margin: 120px 0 140px;
+  }
+
+  .introduce-container {
+    max-width: 1153px;
+    margin: 0 auto;
+  }
+
+  .introduce-content {
+    width: 85%;
+    margin: 0 auto 91px;
+    padding: 0;
+  }
+
+  .introduce-box {
+    max-width: 1153px;
+    margin: 0 auto;
+    padding: 0;  
+  }
+
+  .service-introduction {
+    width: 100%;
+  }
+
+  .service {
+    width: 28%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    margin-right: 6%;
+  }
+
+  .service:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .service:nth-child(6) {
+    margin: 0;
+  } 
+
+  .distance-bottom {
+    margin-bottom: 85px;
+  }
+
+  .service-title {
+    width: 100%;
+    font-size: var(--font-size-l);
+  }
+
+  .content-services {
+    font-size: var(--font-size-m);
+  }
+}
+/* END INTRODUCE */
