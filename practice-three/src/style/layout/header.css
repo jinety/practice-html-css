@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: right 20%;
   min-width: 375px;
-  /* padding: 35px 20px 166px; */
 }
 
 .header-box {
@@ -20,24 +19,14 @@
 
 .header-btn { 
   margin-top: 35px;
-  margin-right: 23px;
+  margin-right: 20px;
   font-size: var( --font-size-s);
   line-height: 20px;
 }
 
-.hamburger-icon {
-  display: inline-block;
-  padding-top: 47px;
-  padding-left: 23px;
-}
-
-.bar {
-  margin: 6px 0; 
-}
-
 .header-content {
-  padding-top: 62px;
-  padding-bottom: 166px;
+  width: 335px;
+  padding: 62px 20px;
 }
 
 .header-content-title {
@@ -80,6 +69,10 @@
 
 /* TABLET */
 @media (min-width: 650px) {
+  .site-header {
+    width: 100%;
+  }
+
   .hamburger-icon {
     display: none;
   }
@@ -112,9 +105,8 @@
   }
 
   .header-content {
-    width: 60%;
+    width: 70%;
     text-align: center;
-    padding: 114px 122px 168px;
   }
 
   .header-content-title {
@@ -170,6 +162,7 @@
 
   .header-content {
     width: 54%;
+    margin: 0;
     padding: 114px 122px 168px;
   }
 

@@ -13,7 +13,4 @@
 
 /* layout */
 @import url(./layout/header.css);
-@import url(./layout/form.css);
-
-/* PAGE */
-@import url(./page/introduce.css);
+@import url(./layout/introduce.css);
