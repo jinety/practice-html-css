@@ -1,4 +1,5 @@
 /* START INTRODUCE */
+/* STYLE APPLIED TO THE MOBILE */
 .introduce-title {
   line-height: 33px;
   margin-bottom: 30px;
@@ -32,7 +33,7 @@
   margin: 0 auto;
 }
 
-/* TABLET */
+/* STYLE APPLIED TO THE TABLET */
 @media (min-width: 650px) {
   .introduce-title {
     line-height: 30px;
@@ -42,14 +43,9 @@
     width: 40%;
     margin: 0 auto 90px;
   }
-
-  .content-services {
-    width: 60%;
-    margin: 0 auto;
-  }  
 }
 
-/* DESKTOP */
+/* STYLE APPLIED TO THE DESKTOP */
 @media (min-width: 1024px) {
   .introduce-title {
     line-height: 66px;
