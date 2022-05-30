@@ -64,10 +64,6 @@
     margin-bottom: 60px;
   }
 
-  .introduce-box {    
-    text-align: center;
-  }
-
   .service {
     width: 80%;
     margin: 0 auto 90px;
@@ -114,7 +110,7 @@
   }
 
   .service:nth-child(3) {
-    margin: 0;
+    margin-right: 0;
   }
 
   .service:nth-child(6) {

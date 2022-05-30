@@ -18,6 +18,10 @@
   .title {
     font-size: 34px;
   }
+
+  .introduce {
+    font-size: var(--font-size-m);
+  }
 }
 
 @media (min-width: 1024px) { 
