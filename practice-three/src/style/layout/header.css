@@ -46,16 +46,11 @@
 .register-form {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  /* max-width: 335px; */
-  margin: 0 auto;
   background-color: var(--primary-color-300);
   border-radius: 8px;
 }
 
 .header-text-input {
-  display: inline-block;
-  width: 60%;
   font-size: 12px;
   line-height: 20px;
   background-color: transparent;
@@ -126,7 +121,8 @@
   }
 
   .register-form {
-    width: 500px;
+    width: 400px;
+    margin: 0 auto;
   }
 
   .header-text-input {
@@ -166,14 +162,13 @@
   }
 
   .header-content {
-    width: 54%;
+    width: 46%;
     margin: 0;
     margin: 114px 122px 0;
   }
 
   .header-content-title {
     line-height: 72px;
-    margin: 0;
     margin-bottom: 13px;
     text-align: left;
   }

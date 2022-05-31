@@ -1,0 +1,88 @@
+/* START SECTION CONTACT */
+/* STYLE APPLIED TO THE MOBILE */
+.section-contact {
+  min-width: 320px;
+  margin-bottom: 124px;
+}
+
+.contact-container {
+  width: 89%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-img {
+  width: 90px;
+  margin: 0 auto 20px;
+}
+
+.contact-title {
+  font-size: 36px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.contact-introduce {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  padding: 11px 20px;
+  font-weight: var(--font-weight-l);
+  font-size: 16px;
+}
+
+/* STYLE APPLIED TO THE TABLET */
+@media (min-width: 650px) {
+  .contact-img {
+    width: 85px;
+  }
+
+  .contact-title {
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .contact-introduce {
+    font-size: var(--font-size-m);
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .contact-btn {
+    padding: 15px 30px;
+  }
+}
+
+/* STYLE APPLIED TO THE DESKTOP */
+@media (min-width: 1024px) {
+  .section-contact {
+    margin-bottom: 90px;
+  }
+
+  .contact-img {
+    width: 120px;
+    margin-bottom: 17px;
+  }
+
+  .contact-us-img {
+    width: 100%;
+  }
+
+  .contact-title {
+    line-height: var(--line-height-xl);
+    margin-bottom: 1px;
+  }
+
+  .contact-introduce {
+    line-height: var(--line-height-l);
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+
+  .contact-btn {
+    padding: 25px 40px;
+    font-size: var(--font-size-l);
+  }
+}
+/* END SECTION CONTACT */

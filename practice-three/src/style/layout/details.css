@@ -63,9 +63,12 @@
 
 /* STYLE APPLIED TO THE DESKTOP */
 @media (min-width: 1024px) {
+  .section-details {
+    margin-bottom: 180px;
+  }
   .details-container {
     max-width: 1200px;
-    margin: 0 auto 180px;
+    margin: 0 auto;
   }
 
   .details-group {
