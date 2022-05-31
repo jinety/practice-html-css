@@ -5,7 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 20%;
-  min-width: 375px;
+  padding-bottom: 166px;
+  min-width: 320px;
 }
 
 .header-box {
@@ -25,8 +26,8 @@
 }
 
 .header-content {
-  width: 335px;
-  padding: 62px 20px;
+  width: 89%;
+  margin: 62px auto 0;
 }
 
 .header-content-title {
@@ -43,7 +44,10 @@
 }
 
 .register-form {
-  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* max-width: 335px; */
   margin: 0 auto;
   background-color: var(--primary-color-300);
   border-radius: 8px;
@@ -58,13 +62,14 @@
   border-radius: 50px 0 0 50px;
   border: none;
   outline: none;
-  padding: 19px 24px 20px 21px;
+  padding: 19px 0 20px 21px;
 }
 
 .register-btn {
   font-size: var(--font-size-s);
   line-height: 19px;
   display: inline-block;
+  margin: 5px;
 }
 
 /* TABLET */
@@ -121,7 +126,7 @@
   }
 
   .register-form {
-    width: 400px;
+    width: 500px;
   }
 
   .header-text-input {
@@ -163,11 +168,10 @@
   .header-content {
     width: 54%;
     margin: 0;
-    padding: 114px 122px 168px;
+    margin: 114px 122px 0;
   }
 
   .header-content-title {
-    width: 100%;
     line-height: 72px;
     margin: 0;
     margin-bottom: 13px;
@@ -175,7 +179,6 @@
   }
 
   .header-content-introduce {
-    width: 84%;
     line-height: var(--line-height-l);
     margin: 0;
     margin-bottom: 35px;

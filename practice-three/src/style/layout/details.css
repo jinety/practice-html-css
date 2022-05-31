@@ -1,8 +1,12 @@
 /* START DETAILS */
 /* STYLE APPLIED TO THE MOBILE */
+.section-details {
+  min-width: 320px;
+}
+
 .details-container {
-  width: 90%;
-  padding: 0 20px;
+  width: 89%;
+  margin: 0 auto;
 }
 
 .details-group {
@@ -36,7 +40,9 @@
 }
 
 .details-btn {
-  padding: 4% 39.5%;
+  width: 100%;
+  max-width: 338px;
+  padding: 12px 0;
   font-size: var(--font-size-s);
 }
 
@@ -49,11 +55,6 @@
   .section-details {
     margin-top: 100px;
   }
-
-  .details-btn {
-    max-width: 40%;
-    padding: 12px 40px;
- }
 
   .details-group:nth-child(2) {
     margin-bottom: 0;
@@ -106,6 +107,7 @@
 
   .details-btn {
     width: 160px;
+    padding: 12px 40px;
   } 
 
   .long-details-content {
