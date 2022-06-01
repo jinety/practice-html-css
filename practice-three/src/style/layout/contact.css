@@ -72,7 +72,7 @@
 
   .contact-title {
     line-height: var(--line-height-xl);
-    margin-bottom: 1px;
+    margin: 0;
   }
 
   .contact-introduce {
