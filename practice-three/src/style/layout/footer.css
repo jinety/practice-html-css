@@ -1,11 +1,7 @@
 /* START FOOTER */
 /* STYLE APPLIED TO THE MOBILE */
 .site-footer {
-  min-width: 320px;
   background: var( --secondary-color-100);
-}
-
-.footer-container {
   padding: 17px 50px;
 }
 
@@ -18,15 +14,15 @@
 
 /* STYLE APPLIED TO THE TABLET */
 @media (min-width: 650px) {
-  .footer-container {
-    padding: 25px 0 25px 60px;
+  .site-footer {
+    padding: 25px 60px;
   }
 }
 
 /* STYLE APPLIED TO THE DESKTOP */
 @media (min-width: 1024px) {
-  .footer-container {
-    padding: 45px 0 45px 124px;
+  .site-footer {
+    padding: 45px 124px;
   }
   
   .footer-copy-right {

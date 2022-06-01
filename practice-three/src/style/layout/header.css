@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 20%;
-  min-width: 320px;
 }
 
 .header-container {
@@ -44,6 +43,9 @@
 }
 
 .register-form {
+  width: 375px;
+  max-width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   background-color: var(--primary-color-300);
@@ -51,13 +53,14 @@
 }
 
 .header-text-input {
+  width: 65%;
   font-size: 12px;
   line-height: 20px;
   background-color: transparent;
   border-radius: 50px 0 0 50px;
   border: none;
   outline: none;
-  padding: 19px 0 20px 21px;
+  margin: 19px 0 20px 21px;
 }
 
 .register-btn {
@@ -69,7 +72,7 @@
 /* STYLE APPLIED TO THE TABLET */
 @media (min-width: 650px) {
   .header-container {
-    width: 100%;
+    width: 95%;
   }
 
   .hamburger-icon {
@@ -78,7 +81,8 @@
 
   .header-box {
     justify-content: flex-end;
-    padding: 35px 25px 80px 0;
+    padding-top: 35px;
+    padding-bottom: 80px;
   }
 
   .nav-menu {
@@ -126,7 +130,7 @@
 
   .header-text-input {
     width: 63%;
-    padding: 24px 10px;
+    margin: 24px 10px;
   }
 }
 
@@ -138,8 +142,13 @@
     background-size: 100% 100%;
   }
 
+  .header-container {
+    width: 83.3%;
+  }
+
   .header-box {
-    padding: 35px 115px 111px 0;
+    padding-top: 35px;
+    padding-bottom: 111px;
   }
 
   .hamburger-icon {
@@ -160,9 +169,8 @@
   }
 
   .header-content {
-    width: 46%;
-    margin: 0;
-    padding-left: 122px;
+    width: 56%;
+    padding: 0;
   }
 
   .header-content-title {
@@ -188,7 +196,7 @@
     width: 67%;
     font-size: 16px;
     line-height: var(--line-height-l);
-    padding: 18px 0 18px 32px;
+    margin: 18px 0 18px 32px;
   }
 
   .register-btn {
