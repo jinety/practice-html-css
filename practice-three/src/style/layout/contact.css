@@ -1,7 +1,6 @@
 /* START SECTION CONTACT */
 /* STYLE APPLIED TO THE MOBILE */
 .section-contact {
-  min-width: 320px;
   margin-bottom: 124px;
 }
 
@@ -61,6 +60,10 @@
     margin-bottom: 90px;
   }
 
+  .contact-container {
+    max-width: 1200px;
+  }
+
   .contact-img {
     width: 120px;
     margin-bottom: 17px;
@@ -72,7 +75,7 @@
 
   .contact-title {
     line-height: var(--line-height-xl);
-    margin-bottom: 1px;
+    margin: 0;
   }
 
   .contact-introduce {

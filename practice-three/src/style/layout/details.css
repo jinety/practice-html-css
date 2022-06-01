@@ -1,9 +1,5 @@
 /* START DETAILS */
 /* STYLE APPLIED TO THE MOBILE */
-.section-details {
-  min-width: 320px;
-}
-
 .details-container {
   width: 89%;
   margin: 0 auto;
@@ -32,7 +28,7 @@
   margin-bottom: 22px;
 }
 
-.long-details-content {
+.content-management {
   font-size: var(--font-size-s);
   color: var(--primary-color-200);
   line-height: 28px;
@@ -66,6 +62,7 @@
   .section-details {
     margin-bottom: 180px;
   }
+
   .details-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -113,7 +110,7 @@
     padding: 12px 40px;
   } 
 
-  .long-details-content {
+  .content-management {
     line-height: 32px;
     margin-bottom: 30px;
     font-size: var(--font-size-m);

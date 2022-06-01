@@ -3,8 +3,8 @@
 @import url(./base/typography.css);
 
 /* abstract */
-@import url(./abstract/variables.css);
-@import url(./abstract/colors.css);
+@import url(./abstracts/variables.css);
+@import url(./abstracts/colors.css);
 
 /* components */
 @import url(./components/button.css);

@@ -1,14 +1,8 @@
 /* START FOOTER */
 /* STYLE APPLIED TO THE MOBILE */
-.stile-footer {
+.site-footer {
   background: var( --secondary-color-100);
-  width: 100%;
-  min-width: 320px;
-}
-
-.footer-container {
-  width: 74%;
-  padding: 17px 0 17px 50px ;
+  padding: 17px 50px;
 }
 
 .footer-copy-right {
@@ -20,20 +14,16 @@
 
 /* STYLE APPLIED TO THE TABLET */
 @media (min-width: 650px) {
-  .footer-container {
-    padding: 25px 0 25px 60px;
-  }  
+  .site-footer {
+    padding: 25px 60px;
+  }
 }
 
 /* STYLE APPLIED TO THE DESKTOP */
 @media (min-width: 1024px) {
-  .stile-footer {
-    width: 100%;
+  .site-footer {
+    padding: 45px 124px;
   }
-  .footer-container {
-    width: 400px;
-    padding: 45px 0 45px 124px;
-  } 
   
   .footer-copy-right {
     font-size: var(--font-size-m);
