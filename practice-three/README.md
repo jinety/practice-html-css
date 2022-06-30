@@ -30,7 +30,7 @@ Before you continue, ensure you meet the following requirements:
 * Step 1: clone repository 
   
   `git clone https://github.com/jinety/practice-html-css/tree/feature/practice-three`
-* Step 2: cd `folder practice-1` 
+* Step 2:  Change directory to `practice-1` folder 
   `cd practice-three`
 * Step 3: Setting Parcel 
   `npm install`
